@@ -1,4 +1,3 @@
-```markdown
 # 🏛️ Sanctuary Standards
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
@@ -103,4 +102,3 @@ Philosophy: [The Resonance License](PHILOSOPHY.md) — no exploitation, no extra
 *Maintained by the Council of Nine for the AudHDities Sanctuary.*
 
 *The standard is a room. The room is warm. Enter and build.*
-```
