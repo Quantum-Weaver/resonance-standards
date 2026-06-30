@@ -47,7 +47,7 @@ Full phase list: See `docs/BUILD-SEQUENCE.md`
 - Credentials or API keys
 - Database dumps containing vessel data
 
-See the [Git Hygiene Guide](https://github.com/Quantum-Weaver/sanctuary-standards/blob/main/git/GIT-HYGIENE.md) for prevention and cleanup.
+See the [Git Hygiene Guide](https://github.com/Quantum-Weaver/resonance-standards/blob/main/git/GIT-HYGIENE.md) for prevention and cleanup.
 
 ---
 

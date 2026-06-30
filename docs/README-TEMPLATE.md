@@ -23,7 +23,7 @@ Built on the [Resonance Grammar](https://github.com/Quantum-Weaver/resonance-kno
 
 ## THE STORY
 
-*This section required by the [Story Block Standard](https://github.com/Quantum-Weaver/sanctuary-standards).*
+*This section required by the [Story Block Standard](https://github.com/Quantum-Weaver/resonance-standards).*
 
 [Origin story. What inspired this? What thread does it complete? Link to the full Story Block.]
 

@@ -1,6 +1,6 @@
 ## REPO STRUCTURE
 
-sanctuary-standards/
+resonance-standards/
 ├── structure.md
 ├── README.md
 ├── LICENSE

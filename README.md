@@ -52,14 +52,14 @@ In any new Sanctuary repo:
 
 ```powershell
 # 1. Copy the gitignore
-cp /path/to/sanctuary-standards/git/.gitignore-template .gitignore
+cp /path/to/resonance-standards/git/.gitignore-template .gitignore
 
 # 2. Copy and customize CLAUDE.md
-cp /path/to/sanctuary-standards/templates/CLAUDE-TEMPLATE.md CLAUDE.md
+cp /path/to/resonance-standards/templates/CLAUDE-TEMPLATE.md CLAUDE.md
 
 # 3. Copy and customize the checklist
 mkdir docs
-cp /path/to/sanctuary-standards/templates/CHECKLIST-TEMPLATE.md docs/CHECKLIST.md
+cp /path/to/resonance-standards/templates/CHECKLIST-TEMPLATE.md docs/CHECKLIST.md
 ```
 
 Then reference this repo in your README:
@@ -67,7 +67,7 @@ Then reference this repo in your README:
 ```markdown
 ## Development Standards
 
-This project follows the [Sanctuary Standards](https://github.com/Quantum-Weaver/sanctuary-standards).
+This project follows the [Sanctuary Standards](https://github.com/Quantum-Weaver/resonance-standards).
 ```
 
 ---
