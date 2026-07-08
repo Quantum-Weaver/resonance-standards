@@ -1,4 +1,4 @@
-## The Four-Thread Methodology
+## The Four-Thread Methodology - archived
 
 Resonance Compass is built using a distributed development methodology. Before writing code, we think together across four threads:
 
