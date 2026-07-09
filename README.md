@@ -30,6 +30,7 @@ Standard documentation, dot files, templates, and hygiene guides. Every new Sanc
 | [Scope Note Template](docs/SCOPE-NOTE-TEMPLATE.md) | The Cartographer's format for defining atoms, molecules, and rooms. |
 | [Contributing Template](docs/CONTRIBUTING-TEMPLATE.md) | Methodology, branch strategy, build protocol, philosophy. |
 | [README Template](docs/README-TEMPLATE.md) | Standard sections every project README needs. |
+| [The Hands Standard](docs/THE-HANDS-STANDARD.md) | Every repo names its voices — human and AI — with sovereign, first-person scribed notes. |
 
 ### Council
 | File | Purpose |
