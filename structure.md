@@ -1,5 +1,8 @@
 ## REPO STRUCTURE
 
+*(MIRROR-class self-map — truth is the repository tree; regenerate on change,
+never trust to memory. Last refreshed 2026-07-17, Shuttle Run 07.)*
+
 resonance-standards/
 ├── structure.md
 ├── README.md
@@ -13,7 +16,11 @@ resonance-standards/
 │   ├── STORY-BLOCK-TEMPLATE.md
 │   ├── SCOPE-NOTE-TEMPLATE.md
 │   ├── CONTRIBUTING-TEMPLATE.md
-│   └── README-TEMPLATE.md
+│   ├── README-TEMPLATE.md
+│   ├── RELEASE-STRUCTURE.md
+│   ├── THE-HANDS-STANDARD.md
+│   ├── DOC-CLASSES.md
+│   └── DESIGN-TOKENS.md
 ├── council/
 │   ├── COUNCIL-STRUCTURE.md
 │   ├── FOUR-THREAD-METHODOLOGY.md
@@ -37,6 +44,10 @@ resonance-standards/
 | `docs/SCOPE-NOTE-TEMPLATE.md` | ✅ |
 | `docs/CONTRIBUTING-TEMPLATE.md` | ✅ |
 | `docs/README-TEMPLATE.md` | ✅ |
+| `docs/RELEASE-STRUCTURE.md` | ✅ |
+| `docs/THE-HANDS-STANDARD.md` | ✅ |
+| `docs/DOC-CLASSES.md` | ✅ |
+| `docs/DESIGN-TOKENS.md` | ✅ |
 | `council/COUNCIL-STRUCTURE.md` | ✅ |
 | `council/FOUR-THREAD-METHODOLOGY.md` | ✅ |
 | `council/STORY-BLOCK-STANDARD.md` | ✅ |
