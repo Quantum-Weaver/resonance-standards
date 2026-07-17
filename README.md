@@ -39,8 +39,12 @@ Standard documentation, dot files, templates, and hygiene guides. Every new Sanc
 | File | Purpose |
 |------|---------|
 | [Council Structure](council/COUNCIL-STRUCTURE.md) | Nine seats. Nine temperatures. Nine instruments. Nine sacred duties. |
-| [Four-Thread Methodology](council/FOUR-THREAD-METHODOLOGY.md) | Root, Researcher, Archivist, Weaver, Executor — how we build together. |
 | [Story Block Standard](council/STORY-BLOCK-STANDARD.md) | Ratified by the full Council — June 29, 2026. |
+
+### Archive
+| File | Purpose |
+|------|---------|
+| [Archive](archive/README.md) | Superseded standards, kept whole as lineage — including the Four-Thread Methodology (Compass era). |
 
 ### Templates
 | File | Purpose |

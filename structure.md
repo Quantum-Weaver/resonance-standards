@@ -23,8 +23,10 @@ resonance-standards/
 │   └── DESIGN-TOKENS.md
 ├── council/
 │   ├── COUNCIL-STRUCTURE.md
-│   ├── FOUR-THREAD-METHODOLOGY.md
 │   └── STORY-BLOCK-STANDARD.md
+├── archive/
+│   ├── README.md
+│   └── FOUR-THREAD-METHODOLOGY.md
 └── templates/
     ├── CLAUDE-TEMPLATE.md
     └── CHECKLIST-TEMPLATE.md
@@ -49,7 +51,8 @@ resonance-standards/
 | `docs/DOC-CLASSES.md` | ✅ |
 | `docs/DESIGN-TOKENS.md` | ✅ |
 | `council/COUNCIL-STRUCTURE.md` | ✅ |
-| `council/FOUR-THREAD-METHODOLOGY.md` | ✅ |
 | `council/STORY-BLOCK-STANDARD.md` | ✅ |
+| `archive/README.md` | ✅ |
+| `archive/FOUR-THREAD-METHODOLOGY.md` | 🏺 archived 2026-07-17 |
 | `templates/CLAUDE-TEMPLATE.md` | ✅ |
 | `templates/CHECKLIST-TEMPLATE.md` | ✅ |
