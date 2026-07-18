@@ -70,6 +70,12 @@ Signing is always a **human-present step** — the Weaver types the password.
 
 ## Release checklist (per release)
 
+**The desktop law (KP, 2026-07-18, verbatim): "i want to always build the
+desktop versions, many neurodivergent folk cannot hold phones in their
+hands."** Every release builds desktop AND Android — a phone-only release
+is an accessibility failure, not a smaller release. Step 2 is two builds,
+always; neither is optional.
+
 1. Bump `tauri.conf.json` version.
 2. `npm run tauri build` (desktop) and `npm run tauri android build`.
 3. `python ../AudHDities-Resonance/sign-release.py <app-repo>` — enter password.
