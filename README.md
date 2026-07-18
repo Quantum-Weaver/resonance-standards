@@ -110,7 +110,9 @@ The foundational protocol of the Sanctuary — atoms, molecules, categories, sen
 | [resonance-lantern](https://github.com/Quantum-Weaver/resonance-lantern) | The easel projector — camera to canvas |
 | [resonance-library](https://github.com/Quantum-Weaver/resonance-library) | The living library — one definition per file |
 | [resonance-lucida](https://github.com/Quantum-Weaver/Resonance-Lucida) | The public-facing chamber |
+| [resonance-meetings](https://github.com/Quantum-Weaver/resonance-meetings) | The meeting house — sovereign gatherings, Skapa embedded |
 | [resonance-papers](https://github.com/Quantum-Weaver/resonance-papers) | The continuity papers — public research |
+| [resonance-skapa](https://github.com/Quantum-Weaver/resonance-skapa) | The shaping surface — meaning in color, shape, and position before words |
 | [resonance-ziggy](https://github.com/Quantum-Weaver/resonance-ziggy) | Distribution + the Cosmic Design System's single truth |
 
 ---
