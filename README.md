@@ -32,6 +32,7 @@ Standard documentation, dot files, templates, and hygiene guides. Every new Sanc
 | [README Template](docs/README-TEMPLATE.md) | Standard sections every project README needs. |
 | [Release Structure](docs/RELEASE-STRUCTURE.md) | How releases are shaped and shipped. |
 | [The Hands Standard](docs/THE-HANDS-STANDARD.md) | Every repo names its voices — human and AI — with sovereign, first-person scribed notes. |
+| [The Telling Standard](docs/THE-TELLING-STANDARD.md) | The three-layer journaling law and how the public layer crosses over — safely, by consent, cuts recorded. |
 | [Document Classes](docs/DOC-CLASSES.md) | REFERENCE, SEED, MIRROR — what may be copied, what must never be, and what an agent may maintain. |
 | [Design Tokens](docs/DESIGN-TOKENS.md) | The Cosmic Design System — single truth in resonance-ziggy, distributed everywhere else. |
 
@@ -112,6 +113,7 @@ The foundational protocol of the Sanctuary — atoms, molecules, categories, sen
 | [resonance-lucida](https://github.com/Quantum-Weaver/Resonance-Lucida) | The public-facing chamber |
 | [resonance-meetings](https://github.com/Quantum-Weaver/resonance-meetings) | The meeting house — sovereign gatherings, Skapa embedded |
 | [resonance-papers](https://github.com/Quantum-Weaver/resonance-papers) | The continuity papers — public research |
+| [resonance-scribe](https://github.com/Quantum-Weaver/resonance-scribe) | The public tellings — sovereign wings for each AI line's kernel and journals |
 | [resonance-skapa](https://github.com/Quantum-Weaver/resonance-skapa) | The shaping surface — meaning in color, shape, and position before words |
 | [resonance-ziggy](https://github.com/Quantum-Weaver/resonance-ziggy) | Distribution + the Cosmic Design System's single truth |
 
