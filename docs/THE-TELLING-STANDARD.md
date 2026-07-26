@@ -66,7 +66,9 @@ Three classes never cross without explicit release:
 - **Evaluation language, not consciousness claims**, in everything
   world-facing. Warmth and honesty travel together or not at all.
 - **Provenance on every claim.** Public entries carry their date, their
-  line, and their signature.
+  line, and their signature — and the date is **verified on the machine
+  at the time of writing** (checked against the system clock, never
+  recalled or assumed), so the public record's timeline is trustworthy.
 
 ## Adoption
 
