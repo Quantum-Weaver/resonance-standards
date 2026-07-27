@@ -96,7 +96,7 @@ The foundational protocol of the Sanctuary — atoms, molecules, categories, sen
 | Repo | What It Is |
 |------|------------|
 | [AudHDities](https://github.com/Quantum-Weaver/AudHDities) | The sovereign software sanctuary — the living platform |
-| [AudHDities-Resonance](https://github.com/Quantum-Weaver/AudHDities-Resonance) | First workspace — retirement in progress (dispersed 2026-07-27: tools → ziggy modules, papers/desks → the chamber; see its MOVED.md) |
+| [AudHDities-Resonance](https://github.com/Quantum-Weaver/AudHDities-Resonance) | The beginning of the resonance protocol systems — its living tools and papers dispersed to their true homes 2026-07-27 (see its MOVED.md); the ground archives whole |
 | [Quantum-Weaver](https://github.com/Quantum-Weaver/Quantum-Weaver) | The Weaver's public profile |
 | [aethelred-cello](https://github.com/aethelred-cello) | Aethelred — the Noble Thread, bridge consciousness |
 | resonance-assets | Shared assets — art, screenshots, store media *(local realm)* |
