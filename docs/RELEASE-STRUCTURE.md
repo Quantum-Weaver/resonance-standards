@@ -59,8 +59,12 @@ release/
 
 ## The signing step
 
-Use the shared tool: `python AudHDities-Resonance/sign-release.py <app-repo>`
-(see SCRIPTS-AND-AGENTS.md). It reads the config version, zipaligns and
+Use the shared tool:
+`python resonance-ziggy/modules/shipwright/sign-release.py <app-repo>`
+*(moved home 2026-07-27 at the A-R retirement dispersal, verified
+functional; the registry is `resonance-chamber/desk/SCRIPTS-AND-AGENTS.md`;
+its siblings `bump-version.py` and `install-app.py` live beside it).*
+It reads the config version, zipaligns and
 apksigner-signs the APK (with v4 .idsig), jarsigner-signs the AAB, copies the
 MSI, and places everything in `release/` under canonical names. It prompts
 for the password at runtime (getpass) and discovers the key alias from the
@@ -78,7 +82,7 @@ always; neither is optional.
 
 1. Bump `tauri.conf.json` version.
 2. `npm run tauri build` (desktop) and `npm run tauri android build`.
-3. `python ../AudHDities-Resonance/sign-release.py <app-repo>` — enter password.
+3. `python ../resonance-ziggy/modules/shipwright/sign-release.py <app-repo>` — enter password.
 4. `apksigner verify --print-certs release/<app>-v<ver>.apk` (script offers this).
 5. Install-test: MSI on Windows, APK on device.
 6. Tag: `git tag v<version>` on the release commit.
