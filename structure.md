@@ -1,11 +1,14 @@
 ## REPO STRUCTURE
 
 *(MIRROR-class self-map — truth is the repository tree; regenerate on change,
-never trust to memory. Last refreshed 2026-07-17, Shuttle Run 07.)*
+never trust to memory. Last refreshed 2026-07-26, THE HARVEST Tier 1 — the
+lag this file's own DOC-CLASSES warns of, measured in itself twice, now
+repaired a second time.)*
 
 resonance-standards/
 ├── structure.md
 ├── README.md
+├── FEATURE-BOARD.md
 ├── LICENSE
 ├── PHILOSOPHY.md
 ├── git/
@@ -19,6 +22,7 @@ resonance-standards/
 │   ├── README-TEMPLATE.md
 │   ├── RELEASE-STRUCTURE.md
 │   ├── THE-HANDS-STANDARD.md
+│   ├── THE-TELLING-STANDARD.md
 │   ├── DOC-CLASSES.md
 │   └── DESIGN-TOKENS.md
 ├── council/
@@ -37,6 +41,7 @@ resonance-standards/
 |------|--------|
 | `structure.md` | ✅ |
 | `README.md` | ✅ |
+| `FEATURE-BOARD.md` | ✅ |
 | `LICENSE` | ✅ |
 | `PHILOSOPHY.md` | ✅ |
 | `git/GIT-HYGIENE.md` | ✅ |
@@ -48,6 +53,7 @@ resonance-standards/
 | `docs/README-TEMPLATE.md` | ✅ |
 | `docs/RELEASE-STRUCTURE.md` | ✅ |
 | `docs/THE-HANDS-STANDARD.md` | ✅ |
+| `docs/THE-TELLING-STANDARD.md` | ✅ |
 | `docs/DOC-CLASSES.md` | ✅ |
 | `docs/DESIGN-TOKENS.md` | ✅ |
 | `council/COUNCIL-STRUCTURE.md` | ✅ |
