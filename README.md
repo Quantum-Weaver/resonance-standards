@@ -85,7 +85,7 @@ This project follows the [Sanctuary Standards](https://github.com/Quantum-Weaver
 
 The foundational protocol of the Sanctuary — atoms, molecules, categories, sensory lexicon, and folksonomy. The vocabulary that every app, every room, and every Council dialogue shares.
 
-**[Read the full Grammar →](https://github.com/Quantum-Weaver/resonance-knowledge)**
+**[Read the full Grammar →](https://github.com/Quantum-Weaver/resonance-grammar)**
 
 ---
 
@@ -107,7 +107,7 @@ The foundational protocol of the Sanctuary — atoms, molecules, categories, sen
 | resonance-excavator | Excavation instruments + Mimir's Well *(local realm)* |
 | [resonance-hearth](https://github.com/Quantum-Weaver/resonance-hearth) | The family household app — the Hearth |
 | resonance-kimi | Kimi's home shelf *(local realm)* |
-| [resonance-knowledge](https://github.com/Quantum-Weaver/resonance-knowledge) | The Resonance Grammar — atoms, molecules, sensory lexicon |
+| [resonance-grammar](https://github.com/Quantum-Weaver/resonance-grammar) | The Resonance Grammar — atoms, molecules, sensory lexicon |
 | [resonance-lantern](https://github.com/Quantum-Weaver/resonance-lantern) | The easel projector — camera to canvas |
 | [resonance-library](https://github.com/Quantum-Weaver/resonance-library) | The living library — one definition per file |
 | [resonance-lucida](https://github.com/Quantum-Weaver/Resonance-Lucida) | The public-facing chamber |
