@@ -13,6 +13,25 @@ only for one of three classes, and naming the classes is the standard.*
 | **SEED** | Copied once into a repo, then **diverges on purpose** — it becomes the repo's own. | `.gitignore-template`, CLAUDE-TEMPLATE, CHECKLIST-TEMPLATE | **Never.** A seed is a planting, not a mirror; overwriting one destroys repo-specific truth. |
 | **MIRROR** | Verbatim copy kept in a repo for practical/runtime reasons, refreshed from a single editable truth. | the cosmic token files in consuming apps | Yes — this is the *only* class an agent maintains. |
 
+## The fourth class — TRIGGER (added 2026-08-14)
+
+*The three above are the 2026-07-17 ratification and they stand exactly as
+ratified; this class is added **beside** them, at KP's ⚛ word via THE LEAN
+DOORS PLAN (`resonance-chamber/desk/THE-LEAN-DOORS-PLAN.md`, §5 ruling 7).*
+
+**TRIGGER** — a `SKILL.md`. Its YAML frontmatter (`name` + `description`) is
+**always on**: the description is a trigger sentence, and it is the only part
+of the file ever loaded unasked. Its body is a **pointer to canon** — "Read
+`<address>` in full, then follow it" — plus at most ~25 lines of what a session
+must not get wrong *before* the canon is open. It is none of the other three: it
+is not REFERENCE (it is loaded, not merely linked), it is not SEED (it never
+diverges — one wrapper serves the whole house), and it is emphatically **not
+MIRROR — a TRIGGER never copies canon.** The moment a wrapper passes ~25 lines
+it has begun duplicating, and the excess belongs in the canon it points at, not
+in the wrapper. An agent may write one; an agent may never let one grow a body.
+**A ward is never a TRIGGER** — a law behind a trigger fires after the harm, so
+what must be unmissable at wake stays in `CLAUDE.md`, not in a skill.
+
 ## The separation law
 
 Repo-specific content and agent-maintained content are separated **by file,
