@@ -16,7 +16,6 @@ secrets.yml
 *.sqlite
 
 # ─── BUILD OUTPUT ──────────────────────────────────────────
-src-tauri/gen/
 target/
 dist/
 build/
