@@ -14,10 +14,10 @@ vite.config.ts.timestamp-*
 .idsg
 generate_blueprint.py
 
-src-tauri/gen/
+
 *.keystore
 *.jks
-*.apk
+*.apk*
 *.aab
 .env
 .env.*
@@ -26,3 +26,11 @@ generate_blueprint.py
 reports/
 target/
 *.db
+*.p12
+*.pfx
+keystore.properties
+key.properties
+local.properties
+
+# Release artifacts (signed builds live on disk + device, never in git)
+release/
