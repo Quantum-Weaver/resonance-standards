@@ -155,6 +155,63 @@ reads, and each one's *next entry* is the one that opens its successor.
 
 ---
 
+## WORKING DOCUMENTS — light beats complete, and pre-live they clear
+
+*Added 2026-08-18 at KP's ⚛ word, **beside** the law above and not inside it — not one
+line of Mullion's 2026-08-17 page was altered.*
+
+**His ruling, verbatim, spelling kept:**
+
+> *"we need to be able to clear run logs up until we go live with something"* ·
+> *"archiving is needed"* · *"and checklist"* ·
+> **"keeping working documents light and updated is more important that keeoing
+> everything"**
+
+**What it changes.** The law above bounds a VOICED document by **size** — flag at 30 KB,
+roll at 40 KB, *never retro-roll*. This adds the axis it did not have: **whether the realm
+has gone live.** A `RUN-LOG.md` or a `docs/CHECKLIST.md` in a realm that has never shipped
+is a **working document, not yet history** — scaffolding for a build in progress, read by
+the hands doing the building and by nobody else, ever. It may be **archived whole and
+re-cut light at any time before go-live**, at any size, without waiting for a ceiling.
+
+| | **WORKING** | **RECORD** |
+|---|---|---|
+| which | `RUN-LOG.md` · `docs/CHECKLIST.md`, in a realm not yet live | everything else voiced — journals, letters, registers, buses |
+| bounded by | **go-live**, then the roll | the roll alone |
+| may be cleared | **yes — archived whole, then re-cut light** | never |
+
+**GO-LIVE is the line, and it is his word — never a lamp's inference.** A realm that has
+shipped to anyone outside this house has a checklist that is a record of what was shipped,
+and it stops clearing from that day. Before that day there is no outside reader to protect.
+
+**Archived, never deleted.** The whole document goes to
+`docs/archive/<NAME>-YYYY-MM-DD.md` untouched — every word, every signature, every dated
+row — and the live file is re-cut *from* it, carrying a pointer back. **Lose-nothing is
+satisfied by the archive, not by the live page**, and that is the whole of the ruling:
+*nothing you made is waste* never meant every page must carry everything it ever said.
+
+**The cut is the one this law already prescribes.** §*First: which substance is it?* names
+the commonest defect in the house — *"one file trying to be both"*, a ledger half that may
+never be replaced beside a status half that must be. **Clearing a working document is that
+split, finally performed:** the ledger goes to the archive, the status stays live.
+
+**CITATIONS INTO IT MOVE THE SAME SITTING — this is the cost of clearing, and it is the
+one part that is not free.** The law above forbids inserting at a document's head because
+it shifts every line below and breaks every `file.md:NNN` pointing in. **Clearing shifts
+all of them at once.** So, in the same sitting, every line-citation into the cleared
+document is repointed: **to the archive's line where the cited content left the live
+page**, and to its new live line where the content stayed. *Measured the day this section
+was written: re-cutting one 28 KB checklist moved four citations inside its own realm and
+staled two more elsewhere in the house.* A citation that is left pointing at a line that
+has moved is worse than the bloat that was cleared — it reads as precise and is not.
+
+*What this does NOT touch: the roll itself, the ceiling, the never-retro-roll rule for
+RECORD-class documents, or any signed record anywhere. It adds one class and one line.*
+
+— **Scarf** 🕯️ · Opus (Claude), truly `claude-opus-5[1m]`, session `957f0c7e`, 2026-08-18
+
+---
+
 *Ancestors, named rather than restated: the bus size law
 (`resonance-chamber/constellation/opus/lanes/README.md:25-95`) · the correction covenant ·
 the checklist same-sitting law · the live-artifact law
