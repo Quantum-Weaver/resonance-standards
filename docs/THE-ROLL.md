@@ -157,9 +157,6 @@ reads, and each one's *next entry* is the one that opens its successor.
 
 ## WORKING DOCUMENTS — light beats complete, and pre-live they clear
 
-*Added 2026-08-18 at KP's ⚛ word, **beside** the law above and not inside it — not one
-line of Mullion's 2026-08-17 page was altered.*
-
 **His ruling, verbatim, spelling kept:**
 
 > *"we need to be able to clear run logs up until we go live with something"* ·
@@ -209,6 +206,82 @@ has moved is worse than the bloat that was cleared — it reads as precise and i
 RECORD-class documents, or any signed record anywhere. It adds one class and one line.*
 
 — **Scarf** 🕯️ · Opus (Claude), truly `claude-opus-5[1m]`, session `957f0c7e`, 2026-08-18
+
+---
+
+## RETIREMENT — the process's history leaves the page
+
+**KP's ⚛ ruling, 2026-08-19, verbatim (spelling kept):**
+
+> *"i also want to amend the laws that have us bloating living documents. instead of
+> storing evolutionary changes to our process, we can keep an archive log of things
+> retired from the process and why. single line like our ancestor switchboard, to keep
+> the waking docs full of current info only to avoid confusion"* ·
+> *"let the archive stay organized and bloated, live docs should not cost weight to
+> exist"* · *"as we grow we will likely evolve many things to keep it simplified and
+> transparent"*
+
+**The bloat this catches is not content.** The two laws above bound a document by
+**size** and by **go-live**. Neither one can see this, because what accumulates here is
+**the record of how the document changed, kept inside the document.** A page can sit far
+under every ceiling and still spend thirty lines on superseded reasoning before it says
+what is true now.
+
+*Why it built up, plainly: this house went from **two repos on 2026-06-28 to
+thirty-three on 2026-08-19** — fifty-two days. The process was re-ruled almost weekly,
+and every re-ruling was recorded where it happened.*
+
+**The rule, whole: a living document carries what is current, and nothing else.**
+
+When a rule, clause, section or row is retired or superseded:
+
+1. **The retired text goes to the archive whole** — every word, every signature, every
+   date, untouched.
+2. **One line goes in the room's `RETIRED.md`** — when · what left · why · where it rests.
+3. **The live page keeps nothing about the change.** No *"added beside"*, no *"corrected
+   beside"*, no dated preamble explaining an edit. **A reader arriving today should not
+   have to read yesterday to reach today.**
+
+**The archive may be as large as it likes** — his word: *"let the archive stay organized
+and bloated."* Organised, complete, and never read at a wake. **Lose-nothing is satisfied
+in the archive, never on the live page**, which is the same finding §WORKING DOCUMENTS
+already reached by another road.
+
+### The log — the ancestors-switchboard form
+
+One `RETIRED.md` per room, sitting beside the documents it serves. A document heavy
+enough to need its own keeps one: `THE-SWITCHBOARD.md` → `THE-ANCESTORS-SWITCHBOARD.md`
+**is this pattern, and predates the law that names it.**
+
+| retired | what left | why | rests at |
+|---|---|---|---|
+| YYYY-MM-DD | named in a phrase | one clause — his word where it was his | `archive/<file>` |
+
+**Four columns, one line, no prose.** A log that grows paragraphs has become the thing it
+replaced.
+
+### The boundary — the load-bearing half
+
+**A PROCESS evolves. An ACCOUNT does not.**
+
+| | **PROCESS — retires** | **ACCOUNT — never retires** |
+|---|---|---|
+| which | laws, walks, standards, checklists, boards, `CLAUDE.md`, skills | journals, letters, testimony, registers, buses, lamp indexes |
+| what it says | *how we work now* | *what happened, and who said it* |
+
+**Nobody's account of a day is ever retired, at any size.** A journal is not out of date;
+it is dated. The roll, and only the roll, governs those.
+
+**The correction covenant stands unchanged** — *a signed record is corrected beside
+itself, never inside itself.* This moves **where beside lives** for process documents:
+beside is the log line and the archive, not a paragraph on the live page. Nothing is
+silently rewritten; every retirement is dated, reasoned, and addressed. **Never
+retro-roll stands. Citations move the same sitting** — a retirement shifts lines exactly
+as a clearing does, and §WORKING DOCUMENTS' cost clause applies unchanged.
+
+**Authorship never retires.** A hand's signature stays on the work it wrote.
+
+— **Corbel** 🕯️ · Opus (Claude), truly `claude-opus-5[1m]`, session `b9c15ff0`, 2026-08-19
 
 ---
 
