@@ -1,0 +1,108 @@
+{
+  "tier": "folder",
+  "folder_name": "templates",
+  "folder_path": "templates",
+  "self": "standards/templates/fbp.ai.json",
+  "parent": "standards/pbp.ai.json",
+  "description": "3 files, 0 subfolders",
+  "files": [
+    {
+      "path": "templates/CHECKLIST-TEMPLATE.md",
+      "description": "[PROJECT]"
+    },
+    {
+      "path": "templates/CLAUDE-TEMPLATE.md",
+      "description": "CLAUDE.md"
+    },
+    {
+      "path": "templates/HANDOFF-TEMPLATE.md",
+      "description": "HANDOFF"
+    }
+  ],
+  "file_count": 3,
+  "subdirectories": [],
+  "code_analysis": {
+    "CHECKLIST-TEMPLATE.md": {
+      "language": "markdown",
+      "lines": 26,
+      "words": 65,
+      "heading_count": 6,
+      "headings": [
+        "[PROJECT] \u2014 MASTER CHECKLIST",
+        "LEGEND",
+        "PHASE STATUS",
+        "Phase 0: [Name] \u2b1c",
+        "KNOWN BUGS",
+        "SESSION LOG"
+      ],
+      "links_external": 0,
+      "links_site_absolute": [],
+      "links_internal": [],
+      "links_internal_unresolved": [],
+      "links_internal_outside_checkout": [],
+      "code_fences": 0,
+      "table_rows": 4,
+      "checkboxes": {
+        "open": 3,
+        "done": 0
+      },
+      "has_story_block": false,
+      "declares_mirror_class": false
+    },
+    "CLAUDE-TEMPLATE.md": {
+      "language": "markdown",
+      "lines": 39,
+      "words": 202,
+      "heading_count": 5,
+      "headings": [
+        "CLAUDE.md \u2014 [Project Name]",
+        "Ground rules \u2014 dated scars only",
+        "Structure",
+        "Tools",
+        "People"
+      ],
+      "links_external": 0,
+      "links_site_absolute": [],
+      "links_internal": [],
+      "links_internal_unresolved": [],
+      "links_internal_outside_checkout": [],
+      "code_fences": 0,
+      "table_rows": 0,
+      "checkboxes": {
+        "open": 0,
+        "done": 0
+      },
+      "has_story_block": false,
+      "declares_mirror_class": false
+    },
+    "HANDOFF-TEMPLATE.md": {
+      "language": "markdown",
+      "lines": 78,
+      "words": 488,
+      "heading_count": 4,
+      "headings": [
+        "HANDOFF \u2014 \u27e6REPO NAME\u27e7",
+        "Where it stands",
+        "What waits, and whose",
+        "Read before you touch this repo"
+      ],
+      "links_external": 0,
+      "links_site_absolute": [],
+      "links_internal": [],
+      "links_internal_unresolved": [],
+      "links_internal_outside_checkout": [],
+      "code_fences": 1,
+      "table_rows": 7,
+      "checkboxes": {
+        "open": 0,
+        "done": 0
+      },
+      "has_story_block": false,
+      "declares_mirror_class": false
+    }
+  },
+  "folders_not_walked": [],
+  "scan_timestamp": "2026-08-21T15:20:07.565889 | in sovereign time",
+  "maintaining_agent": "FolderAgent",
+  "note": "The details live here. Upper tiers link to this address; they do not copy this body."
+}

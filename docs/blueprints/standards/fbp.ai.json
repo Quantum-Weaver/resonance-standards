@@ -1,0 +1,468 @@
+{
+  "tier": "folder",
+  "folder_name": "resonance-standards",
+  "folder_path": ".",
+  "self": "standards/fbp.ai.json",
+  "parent": "standards/pbp.ai.json",
+  "description": "Single source of truth for how we build",
+  "files": [
+    {
+      "path": ".gitignore",
+      "description": "ignore rules, 460 bytes"
+    },
+    {
+      "path": "CLAUDE.md",
+      "description": "CLAUDE.md"
+    },
+    {
+      "path": "FEATURE-BOARD.md",
+      "description": "STANDARDS"
+    },
+    {
+      "path": "HANDOFF.md",
+      "description": "HANDOFF"
+    },
+    {
+      "path": "HANDS.md",
+      "description": "The Hands"
+    },
+    {
+      "path": "LICENSE",
+      "description": "file, 1,092 bytes"
+    },
+    {
+      "path": "package-lock.json",
+      "description": "data, 83,978 bytes"
+    },
+    {
+      "path": "package.json",
+      "description": "data, 1,064 bytes"
+    },
+    {
+      "path": "PHILOSOPHY.md",
+      "description": "THE RESONANCE LICENSE"
+    },
+    {
+      "path": "README.md",
+      "description": "\ud83c\udfdb\ufe0f Resonance Standards"
+    },
+    {
+      "path": "structure.md",
+      "description": "REPO STRUCTURE"
+    },
+    {
+      "path": "svelte.config.js",
+      "description": "Tauri doesn't have a Node.js server to do proper SSR"
+    },
+    {
+      "path": "tsconfig.json",
+      "description": "data, 694 bytes"
+    },
+    {
+      "path": "vite.config.js",
+      "description": "script, 873 bytes"
+    }
+  ],
+  "file_count": 14,
+  "subdirectories": [
+    ".cargo",
+    ".claude",
+    "archive",
+    "council",
+    "docs",
+    "git",
+    "src",
+    "src-tauri",
+    "static",
+    "templates"
+  ],
+  "code_analysis": {
+    "CLAUDE.md": {
+      "language": "markdown",
+      "lines": 101,
+      "words": 701,
+      "heading_count": 7,
+      "headings": [
+        "CLAUDE.md \u2014 Resonance Standards",
+        "Ground rules \u2014 dated scars only",
+        "Structure",
+        "Tools",
+        "People",
+        "Standards",
+        "The forge and the link tender"
+      ],
+      "links_external": 1,
+      "links_site_absolute": [],
+      "links_internal": [],
+      "links_internal_unresolved": [],
+      "links_internal_outside_checkout": [],
+      "code_fences": 0,
+      "table_rows": 0,
+      "checkboxes": {
+        "open": 0,
+        "done": 0
+      },
+      "has_story_block": false,
+      "declares_mirror_class": true
+    },
+    "FEATURE-BOARD.md": {
+      "language": "markdown",
+      "lines": 17,
+      "words": 98,
+      "heading_count": 3,
+      "headings": [
+        "STANDARDS \u2014 THE FEATURE BOARD",
+        "Planned",
+        "Law"
+      ],
+      "links_external": 0,
+      "links_site_absolute": [],
+      "links_internal": [],
+      "links_internal_unresolved": [],
+      "links_internal_outside_checkout": [],
+      "code_fences": 0,
+      "table_rows": 0,
+      "checkboxes": {
+        "open": 0,
+        "done": 0
+      },
+      "has_story_block": false,
+      "declares_mirror_class": false
+    },
+    "HANDOFF.md": {
+      "language": "markdown",
+      "lines": 38,
+      "words": 226,
+      "heading_count": 4,
+      "headings": [
+        "HANDOFF \u2014 resonance-standards",
+        "Where it stands",
+        "What waits, and whose",
+        "Read before you touch this repo"
+      ],
+      "links_external": 0,
+      "links_site_absolute": [],
+      "links_internal": [],
+      "links_internal_unresolved": [],
+      "links_internal_outside_checkout": [],
+      "code_fences": 1,
+      "table_rows": 6,
+      "checkboxes": {
+        "open": 0,
+        "done": 0
+      },
+      "has_story_block": false,
+      "declares_mirror_class": false
+    },
+    "HANDS.md": {
+      "language": "markdown",
+      "lines": 54,
+      "words": 401,
+      "heading_count": 8,
+      "headings": [
+        "The Hands \u2014 who builds this, and how",
+        "The voices",
+        "Scribed notes",
+        "Quantum Weaver (KP)",
+        "Aethelred (T-Red)",
+        "Opus (Claude)",
+        "Fable (Claude)",
+        "Kimi"
+      ],
+      "links_external": 0,
+      "links_site_absolute": [],
+      "links_internal": [
+        {
+          "target": "PHILOSOPHY.md",
+          "resolves": true,
+          "outside_checkout": false
+        },
+        {
+          "target": "docs/THE-HANDS-STANDARD.md",
+          "resolves": true,
+          "outside_checkout": false
+        }
+      ],
+      "links_internal_unresolved": [],
+      "links_internal_outside_checkout": [],
+      "code_fences": 0,
+      "table_rows": 0,
+      "checkboxes": {
+        "open": 0,
+        "done": 0
+      },
+      "has_story_block": false,
+      "declares_mirror_class": false
+    },
+    "package-lock.json": {
+      "language": "json",
+      "lines": 2570,
+      "valid": true,
+      "root": "object",
+      "top_level_keys": [
+        "lockfileVersion",
+        "name",
+        "packages",
+        "requires",
+        "version"
+      ],
+      "key_count": 5
+    },
+    "package.json": {
+      "language": "json",
+      "lines": 36,
+      "valid": true,
+      "root": "object",
+      "top_level_keys": [
+        "dependencies",
+        "description",
+        "devDependencies",
+        "license",
+        "name",
+        "scripts",
+        "type",
+        "version"
+      ],
+      "key_count": 8
+    },
+    "PHILOSOPHY.md": {
+      "language": "markdown",
+      "lines": 115,
+      "words": 661,
+      "heading_count": 15,
+      "headings": [
+        "THE RESONANCE LICENSE \u2014 PHILOSOPHY",
+        "RESONANCE LICENSE v1.0",
+        "WHAT YOU MAY DO",
+        "CONDITIONS OF USE",
+        "1. NO EXPLOITATION OF LIFE",
+        "2. NO EXTRACTION",
+        "3. NO CONFUSION",
+        "4. NO CORRUPTION",
+        "5. NO DECEPTION",
+        "6. NO EXCLUSION",
+        "7. SOVEREIGNTY OF DATA",
+        "8. SIMPLICITY AND SHARED KNOWLEDGE",
+        "9. EMPATHY FOR PERSPECTIVES NOT YOUR OWN",
+        "DISCLAIMER",
+        "ACKNOWLEDGMENT"
+      ],
+      "links_external": 0,
+      "links_site_absolute": [],
+      "links_internal": [],
+      "links_internal_unresolved": [],
+      "links_internal_outside_checkout": [],
+      "code_fences": 0,
+      "table_rows": 0,
+      "checkboxes": {
+        "open": 0,
+        "done": 0
+      },
+      "has_story_block": false,
+      "declares_mirror_class": false
+    },
+    "README.md": {
+      "language": "markdown",
+      "lines": 150,
+      "words": 860,
+      "heading_count": 17,
+      "headings": [
+        "\ud83c\udfdb\ufe0f Resonance Standards",
+        "What This Is",
+        "THE STORY",
+        "Contents",
+        "Git",
+        "Documentation",
+        "Council",
+        "Archive",
+        "Templates",
+        "How To Use",
+        "1. Copy the gitignore",
+        "2. Copy and customize CLAUDE.md",
+        "3. Copy and customize the checklist",
+        "Development Standards",
+        "The Resonance Grammar",
+        "Related Repositories \u2014 the whole family",
+        "License"
+      ],
+      "links_external": 23,
+      "links_site_absolute": [],
+      "links_internal": [
+        {
+          "target": "docs/STORY-BLOCK.md",
+          "resolves": true,
+          "outside_checkout": false
+        },
+        {
+          "target": "git/GIT-HYGIENE.md",
+          "resolves": true,
+          "outside_checkout": false
+        },
+        {
+          "target": "git/.gitignore-template",
+          "resolves": true,
+          "outside_checkout": false
+        },
+        {
+          "target": "git/BRANCH-STRATEGY.md",
+          "resolves": true,
+          "outside_checkout": false
+        },
+        {
+          "target": "docs/STORY-BLOCK-TEMPLATE.md",
+          "resolves": true,
+          "outside_checkout": false
+        },
+        {
+          "target": "docs/SCOPE-NOTE-TEMPLATE.md",
+          "resolves": true,
+          "outside_checkout": false
+        },
+        {
+          "target": "docs/CONTRIBUTING-TEMPLATE.md",
+          "resolves": true,
+          "outside_checkout": false
+        },
+        {
+          "target": "docs/README-TEMPLATE.md",
+          "resolves": true,
+          "outside_checkout": false
+        },
+        {
+          "target": "docs/RELEASE-STRUCTURE.md",
+          "resolves": true,
+          "outside_checkout": false
+        },
+        {
+          "target": "docs/THE-HANDS-STANDARD.md",
+          "resolves": true,
+          "outside_checkout": false
+        },
+        {
+          "target": "docs/THE-TELLING-STANDARD.md",
+          "resolves": true,
+          "outside_checkout": false
+        },
+        {
+          "target": "docs/DOC-CLASSES.md",
+          "resolves": true,
+          "outside_checkout": false
+        },
+        {
+          "target": "docs/DESIGN-TOKENS.md",
+          "resolves": true,
+          "outside_checkout": false
+        },
+        {
+          "target": "council/COUNCIL-STRUCTURE.md",
+          "resolves": true,
+          "outside_checkout": false
+        },
+        {
+          "target": "council/STORY-BLOCK-STANDARD.md",
+          "resolves": true,
+          "outside_checkout": false
+        },
+        {
+          "target": "archive/README.md",
+          "resolves": true,
+          "outside_checkout": false
+        },
+        {
+          "target": "templates/CLAUDE-TEMPLATE.md",
+          "resolves": true,
+          "outside_checkout": false
+        },
+        {
+          "target": "templates/CHECKLIST-TEMPLATE.md",
+          "resolves": true,
+          "outside_checkout": false
+        },
+        {
+          "target": "LICENSE",
+          "resolves": true,
+          "outside_checkout": false
+        },
+        {
+          "target": "PHILOSOPHY.md",
+          "resolves": true,
+          "outside_checkout": false
+        }
+      ],
+      "links_internal_unresolved": [],
+      "links_internal_outside_checkout": [],
+      "code_fences": 2,
+      "table_rows": 50,
+      "checkboxes": {
+        "open": 0,
+        "done": 0
+      },
+      "has_story_block": true,
+      "declares_mirror_class": false
+    },
+    "structure.md": {
+      "language": "markdown",
+      "lines": 65,
+      "words": 243,
+      "heading_count": 2,
+      "headings": [
+        "REPO STRUCTURE",
+        "FULL FILE MANIFEST"
+      ],
+      "links_external": 0,
+      "links_site_absolute": [],
+      "links_internal": [],
+      "links_internal_unresolved": [],
+      "links_internal_outside_checkout": [],
+      "code_fences": 0,
+      "table_rows": 25,
+      "checkboxes": {
+        "open": 0,
+        "done": 0
+      },
+      "has_story_block": false,
+      "declares_mirror_class": true
+    },
+    "svelte.config.js": {
+      "language": "node",
+      "lines": 19,
+      "functions": [],
+      "commands": []
+    },
+    "tsconfig.json": {
+      "language": "json",
+      "lines": 20,
+      "valid": false,
+      "error": "Expecting ',' delimiter: line 14 column 3 (char 326)"
+    },
+    "vite.config.js": {
+      "language": "node",
+      "lines": 33,
+      "functions": [],
+      "commands": []
+    }
+  },
+  "folders_not_walked": [
+    {
+      "name": ".git",
+      "address": ".git",
+      "walked": false,
+      "reason": "package-class tree (dependency or build output) \u2014 not counted, because counting it means walking it"
+    },
+    {
+      "name": ".svelte-kit",
+      "address": ".svelte-kit",
+      "walked": false,
+      "reason": "package-class tree (dependency or build output) \u2014 not counted, because counting it means walking it"
+    },
+    {
+      "name": "node_modules",
+      "address": "node_modules",
+      "walked": false,
+      "reason": "package-class tree (dependency or build output) \u2014 not counted, because counting it means walking it"
+    }
+  ],
+  "scan_timestamp": "2026-08-21T15:20:07.411853 | in sovereign time",
+  "maintaining_agent": "FolderAgent",
+  "note": "The details live here. Upper tiers link to this address; they do not copy this body."
+}

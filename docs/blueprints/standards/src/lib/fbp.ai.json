@@ -1,0 +1,93 @@
+{
+  "tier": "folder",
+  "folder_name": "lib",
+  "folder_path": "src/lib",
+  "self": "standards/src/lib/fbp.ai.json",
+  "parent": "standards/src/lib/obp.ai.json",
+  "description": "3 files, 9 subfolders",
+  "files": [
+    {
+      "path": "src/lib/markdown.ts",
+      "description": "markdown.ts"
+    },
+    {
+      "path": "src/lib/papers.ts",
+      "description": "THE PAPERS"
+    },
+    {
+      "path": "src/lib/tree.ts",
+      "description": "THE SELF-MAP"
+    }
+  ],
+  "file_count": 3,
+  "subdirectories": [
+    "src/lib/components",
+    "src/lib/cosmic",
+    "src/lib/cumdach",
+    "src/lib/data",
+    "src/lib/epagoge",
+    "src/lib/stores",
+    "src/lib/styles",
+    "src/lib/theme",
+    "src/lib/types"
+  ],
+  "code_analysis": {
+    "markdown.ts": {
+      "language": "typescript",
+      "lines": 273,
+      "exported_functions": [
+        "renderMarkdown"
+      ],
+      "exported_consts": [],
+      "interfaces": [],
+      "types": [],
+      "imports_node": [],
+      "spawns_process": false,
+      "writes_files": false,
+      "env_names_read": []
+    },
+    "papers.ts": {
+      "language": "typescript",
+      "lines": 113,
+      "exported_functions": [],
+      "exported_consts": [
+        "PAPERS",
+        "GROUPS",
+        "COUNTS"
+      ],
+      "interfaces": [
+        "Paper",
+        "Group"
+      ],
+      "types": [],
+      "imports_node": [],
+      "spawns_process": false,
+      "writes_files": false,
+      "env_names_read": []
+    },
+    "tree.ts": {
+      "language": "typescript",
+      "lines": 97,
+      "exported_functions": [
+        "draw",
+        "isSelfMap"
+      ],
+      "exported_consts": [
+        "ROOT",
+        "TREE_COUNTS"
+      ],
+      "interfaces": [
+        "Node"
+      ],
+      "types": [],
+      "imports_node": [],
+      "spawns_process": false,
+      "writes_files": false,
+      "env_names_read": []
+    }
+  },
+  "folders_not_walked": [],
+  "scan_timestamp": "2026-08-21T15:20:07.450586 | in sovereign time",
+  "maintaining_agent": "FolderAgent",
+  "note": "The details live here. Upper tiers link to this address; they do not copy this body."
+}

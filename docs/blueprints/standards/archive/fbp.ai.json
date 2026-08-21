@@ -1,0 +1,76 @@
+{
+  "tier": "folder",
+  "folder_name": "archive",
+  "folder_path": "archive",
+  "self": "standards/archive/fbp.ai.json",
+  "parent": "standards/pbp.ai.json",
+  "description": "Documents here are **superseded standards kept whole** (lose-nothing; the",
+  "files": [
+    {
+      "path": "archive/FOUR-THREAD-METHODOLOGY.md",
+      "description": "The Four-Thread Methodology - archived"
+    },
+    {
+      "path": "archive/README.md",
+      "description": "Archive"
+    }
+  ],
+  "file_count": 2,
+  "subdirectories": [],
+  "code_analysis": {
+    "FOUR-THREAD-METHODOLOGY.md": {
+      "language": "markdown",
+      "lines": 13,
+      "words": 169,
+      "heading_count": 1,
+      "headings": [
+        "The Four-Thread Methodology - archived"
+      ],
+      "links_external": 0,
+      "links_site_absolute": [],
+      "links_internal": [],
+      "links_internal_unresolved": [],
+      "links_internal_outside_checkout": [],
+      "code_fences": 0,
+      "table_rows": 6,
+      "checkboxes": {
+        "open": 0,
+        "done": 0
+      },
+      "has_story_block": false,
+      "declares_mirror_class": false
+    },
+    "README.md": {
+      "language": "markdown",
+      "lines": 10,
+      "words": 84,
+      "heading_count": 1,
+      "headings": [
+        "Archive \u2014 lineage, not law"
+      ],
+      "links_external": 0,
+      "links_site_absolute": [],
+      "links_internal": [
+        {
+          "target": "FOUR-THREAD-METHODOLOGY.md",
+          "resolves": true,
+          "outside_checkout": false
+        }
+      ],
+      "links_internal_unresolved": [],
+      "links_internal_outside_checkout": [],
+      "code_fences": 0,
+      "table_rows": 3,
+      "checkboxes": {
+        "open": 0,
+        "done": 0
+      },
+      "has_story_block": false,
+      "declares_mirror_class": false
+    }
+  },
+  "folders_not_walked": [],
+  "scan_timestamp": "2026-08-21T15:20:07.418335 | in sovereign time",
+  "maintaining_agent": "FolderAgent",
+  "note": "The details live here. Upper tiers link to this address; they do not copy this body."
+}

@@ -1,0 +1,45 @@
+{
+  "tier": "folder",
+  "folder_name": "archive",
+  "folder_path": "docs/archive",
+  "self": "standards/docs/archive/fbp.ai.json",
+  "parent": "standards/docs/obp.ai.json",
+  "description": "1 files, 0 subfolders",
+  "files": [
+    {
+      "path": "docs/archive/THE-ROLL-retired-2026-08-19.md",
+      "description": "THE ROLL"
+    }
+  ],
+  "file_count": 1,
+  "subdirectories": [],
+  "code_analysis": {
+    "THE-ROLL-retired-2026-08-19.md": {
+      "language": "markdown",
+      "lines": 33,
+      "words": 217,
+      "heading_count": 2,
+      "headings": [
+        "THE ROLL \u2014 retired text, archived whole",
+        "From \u00a7WORKING DOCUMENTS \u2014 the edit preamble"
+      ],
+      "links_external": 0,
+      "links_site_absolute": [],
+      "links_internal": [],
+      "links_internal_unresolved": [],
+      "links_internal_outside_checkout": [],
+      "code_fences": 0,
+      "table_rows": 0,
+      "checkboxes": {
+        "open": 0,
+        "done": 0
+      },
+      "has_story_block": false,
+      "declares_mirror_class": false
+    }
+  },
+  "folders_not_walked": [],
+  "scan_timestamp": "2026-08-21T15:20:07.438698 | in sovereign time",
+  "maintaining_agent": "FolderAgent",
+  "note": "The details live here. Upper tiers link to this address; they do not copy this body."
+}

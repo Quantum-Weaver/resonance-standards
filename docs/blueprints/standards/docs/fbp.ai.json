@@ -1,0 +1,625 @@
+{
+  "tier": "folder",
+  "folder_name": "docs",
+  "folder_path": "docs",
+  "self": "standards/docs/fbp.ai.json",
+  "parent": "standards/docs/obp.ai.json",
+  "description": "16 files, 1 subfolders",
+  "files": [
+    {
+      "path": "docs/ANDROID-16KB-PAGES.md",
+      "description": "ANDROID 16 KB PAGES"
+    },
+    {
+      "path": "docs/ANDROID-BUILD-LAWS.md",
+      "description": "ANDROID BUILD LAWS"
+    },
+    {
+      "path": "docs/CHECKLIST.md",
+      "description": "RESONANCE STANDARDS"
+    },
+    {
+      "path": "docs/CHILD-BUILDS.md",
+      "description": "CHILD BUILDS"
+    },
+    {
+      "path": "docs/CONTRIBUTING-TEMPLATE.md",
+      "description": "Contributing to [Project Name]"
+    },
+    {
+      "path": "docs/DESIGN-TOKENS.md",
+      "description": "Design Tokens"
+    },
+    {
+      "path": "docs/DOC-CLASSES.md",
+      "description": "Document Classes"
+    },
+    {
+      "path": "docs/README-TEMPLATE.md",
+      "description": "\ud83e\udded [Project Name]"
+    },
+    {
+      "path": "docs/RELEASE-STRUCTURE.md",
+      "description": "RELEASE STRUCTURE"
+    },
+    {
+      "path": "docs/RETIRED.md",
+      "description": "RETIRED"
+    },
+    {
+      "path": "docs/SCOPE-NOTE-TEMPLATE.md",
+      "description": "Scope Note Template"
+    },
+    {
+      "path": "docs/STORY-BLOCK-TEMPLATE.md",
+      "description": "Story Block Template"
+    },
+    {
+      "path": "docs/STORY-BLOCK.md",
+      "description": "Story Block"
+    },
+    {
+      "path": "docs/THE-HANDS-STANDARD.md",
+      "description": "THE HANDS"
+    },
+    {
+      "path": "docs/THE-ROLL.md",
+      "description": "THE ROLL"
+    },
+    {
+      "path": "docs/THE-TELLING-STANDARD.md",
+      "description": "THE TELLING"
+    }
+  ],
+  "file_count": 16,
+  "subdirectories": [
+    "docs/archive"
+  ],
+  "code_analysis": {
+    "ANDROID-16KB-PAGES.md": {
+      "language": "markdown",
+      "lines": 57,
+      "words": 281,
+      "heading_count": 10,
+      "headings": [
+        "ANDROID 16 KB PAGES \u2014 the alignment every family app needs",
+        "The issue",
+        "The fix \u2014 once per repo, at the root",
+        "Android 16 KB memory-page-size support (Play requirement for Android 15+",
+        "devices). NDK r26/r27 align ELF segments to 4 KB by default; r28+ makes",
+        "16 KB the default. Until the NDK is upgraded, pass the alignment to the",
+        "linker for the 64-bit targets the requirement covers.",
+        "Ref: https://developer.android.com/guide/practices/page-sizes",
+        "The history, honestly",
+        "The law for future births"
+      ],
+      "links_external": 0,
+      "links_site_absolute": [],
+      "links_internal": [],
+      "links_internal_unresolved": [],
+      "links_internal_outside_checkout": [],
+      "code_fences": 1,
+      "table_rows": 0,
+      "checkboxes": {
+        "open": 0,
+        "done": 0
+      },
+      "has_story_block": false,
+      "declares_mirror_class": false
+    },
+    "ANDROID-BUILD-LAWS.md": {
+      "language": "markdown",
+      "lines": 146,
+      "words": 1106,
+      "heading_count": 8,
+      "headings": [
+        "ANDROID BUILD LAWS \u2014 what every Tauri v2 app in the family owes Android",
+        "1 \u00b7 Capabilities are explicit, or the plugin grants nothing",
+        "2 \u00b7 Non-ASCII in a SQL DEFAULT fails silently through the JNI bridge",
+        "3 \u00b7 `tauri icon` overwrites its own input \u2014 restore KP's art explicitly",
+        "4 \u00b7 The manifest extras belong to a script, not to a hand",
+        "5 \u00b7 Camera needs no custom Kotlin plugin",
+        "What the five files showed on 2026-08-14, honestly",
+        "Deeper repo-local material \u2014 pointed at, never copied"
+      ],
+      "links_external": 0,
+      "links_site_absolute": [],
+      "links_internal": [],
+      "links_internal_unresolved": [],
+      "links_internal_outside_checkout": [],
+      "code_fences": 0,
+      "table_rows": 8,
+      "checkboxes": {
+        "open": 0,
+        "done": 0
+      },
+      "has_story_block": false,
+      "declares_mirror_class": false
+    },
+    "CHECKLIST.md": {
+      "language": "markdown",
+      "lines": 103,
+      "words": 1294,
+      "heading_count": 8,
+      "headings": [
+        "RESONANCE STANDARDS \u2014 MASTER CHECKLIST",
+        "LEGEND",
+        "PHASE STATUS",
+        "Phase 0: The papers, standing as documents \u2705 (2026-07 \u2192)",
+        "Phase 1: The face \u2014 standards as an app \u2705 (2026-08-13)",
+        "KNOWN BUGS",
+        "OPEN \u2014 KP's \u269b word alone",
+        "SESSION LOG"
+      ],
+      "links_external": 0,
+      "links_site_absolute": [],
+      "links_internal": [],
+      "links_internal_unresolved": [],
+      "links_internal_outside_checkout": [],
+      "code_fences": 0,
+      "table_rows": 13,
+      "checkboxes": {
+        "open": 0,
+        "done": 20
+      },
+      "has_story_block": false,
+      "declares_mirror_class": true
+    },
+    "CHILD-BUILDS.md": {
+      "language": "markdown",
+      "lines": 171,
+      "words": 1155,
+      "heading_count": 7,
+      "headings": [
+        "CHILD BUILDS \u2014 founding an app on a family body, and what the mother is owed",
+        "THE LAW, bought 2026-08-13",
+        "Why \u2014 twice the mother has taken a child's ground",
+        "The day, in order",
+        "Unwritten \u2014 his to rule",
+        "What this page does NOT assert",
+        "Beside this page"
+      ],
+      "links_external": 0,
+      "links_site_absolute": [],
+      "links_internal": [],
+      "links_internal_unresolved": [],
+      "links_internal_outside_checkout": [],
+      "code_fences": 0,
+      "table_rows": 0,
+      "checkboxes": {
+        "open": 0,
+        "done": 0
+      },
+      "has_story_block": false,
+      "declares_mirror_class": false
+    },
+    "CONTRIBUTING-TEMPLATE.md": {
+      "language": "markdown",
+      "lines": 67,
+      "words": 287,
+      "heading_count": 7,
+      "headings": [
+        "Contributing to [Project Name]",
+        "The Four-Thread Methodology",
+        "Branch Strategy",
+        "Build Protocol",
+        "Git Hygiene",
+        "Philosophy",
+        "Questions?"
+      ],
+      "links_external": 1,
+      "links_site_absolute": [],
+      "links_internal": [],
+      "links_internal_unresolved": [],
+      "links_internal_outside_checkout": [],
+      "code_fences": 0,
+      "table_rows": 7,
+      "checkboxes": {
+        "open": 0,
+        "done": 0
+      },
+      "has_story_block": false,
+      "declares_mirror_class": false
+    },
+    "DESIGN-TOKENS.md": {
+      "language": "markdown",
+      "lines": 37,
+      "words": 235,
+      "heading_count": 4,
+      "headings": [
+        "Design Tokens \u2014 the Cosmic Design System",
+        "The single truth",
+        "The laws that travel with it",
+        "For a new repo"
+      ],
+      "links_external": 1,
+      "links_site_absolute": [],
+      "links_internal": [
+        {
+          "target": "DOC-CLASSES.md",
+          "resolves": true,
+          "outside_checkout": false
+        }
+      ],
+      "links_internal_unresolved": [],
+      "links_internal_outside_checkout": [],
+      "code_fences": 0,
+      "table_rows": 0,
+      "checkboxes": {
+        "open": 0,
+        "done": 0
+      },
+      "has_story_block": false,
+      "declares_mirror_class": true
+    },
+    "DOC-CLASSES.md": {
+      "language": "markdown",
+      "lines": 69,
+      "words": 654,
+      "heading_count": 7,
+      "headings": [
+        "Document Classes \u2014 what may be copied, what must never be",
+        "The three classes",
+        "The fourth class \u2014 TRIGGER (added 2026-08-14)",
+        "The separation law",
+        "The mirror header law (ratified pattern: cosmic's `MIRROR.md`)",
+        "Self-maps are generated, not hand-kept",
+        "The distribution agent (scope and safeguards)"
+      ],
+      "links_external": 0,
+      "links_site_absolute": [],
+      "links_internal": [],
+      "links_internal_unresolved": [],
+      "links_internal_outside_checkout": [],
+      "code_fences": 0,
+      "table_rows": 5,
+      "checkboxes": {
+        "open": 0,
+        "done": 0
+      },
+      "has_story_block": false,
+      "declares_mirror_class": true
+    },
+    "README-TEMPLATE.md": {
+      "language": "markdown",
+      "lines": 106,
+      "words": 220,
+      "heading_count": 12,
+      "headings": [
+        "\ud83e\udded [Project Name]",
+        "WHAT IT IS",
+        "THE STORY",
+        "WHO IT'S FOR",
+        "Screenshots",
+        "Installation",
+        "Prerequisites",
+        "Build",
+        "Development",
+        "BUILT WITH",
+        "FOR DEVELOPERS",
+        "LICENSE"
+      ],
+      "links_external": 5,
+      "links_site_absolute": [],
+      "links_internal": [
+        {
+          "target": "docs/STORY-BLOCK.md",
+          "resolves": false,
+          "outside_checkout": false
+        },
+        {
+          "target": "screenshots/one.png",
+          "resolves": false,
+          "outside_checkout": false
+        },
+        {
+          "target": "screenshots/two.png",
+          "resolves": false,
+          "outside_checkout": false
+        },
+        {
+          "target": "screenshots/three.png",
+          "resolves": false,
+          "outside_checkout": false
+        },
+        {
+          "target": "docs/CONTRIBUTING.md",
+          "resolves": false,
+          "outside_checkout": false
+        },
+        {
+          "target": "docs/BUILD-SEQUENCE.md",
+          "resolves": false,
+          "outside_checkout": false
+        },
+        {
+          "target": "LICENSE",
+          "resolves": false,
+          "outside_checkout": false
+        },
+        {
+          "target": "PHILOSOPHY.md",
+          "resolves": false,
+          "outside_checkout": false
+        }
+      ],
+      "links_internal_unresolved": [
+        "docs/STORY-BLOCK.md",
+        "screenshots/one.png",
+        "screenshots/two.png",
+        "screenshots/three.png",
+        "docs/CONTRIBUTING.md",
+        "docs/BUILD-SEQUENCE.md",
+        "LICENSE",
+        "PHILOSOPHY.md"
+      ],
+      "links_internal_outside_checkout": [],
+      "code_fences": 3,
+      "table_rows": 3,
+      "checkboxes": {
+        "open": 0,
+        "done": 0
+      },
+      "has_story_block": true,
+      "declares_mirror_class": false
+    },
+    "RELEASE-STRUCTURE.md": {
+      "language": "markdown",
+      "lines": 118,
+      "words": 676,
+      "heading_count": 9,
+      "headings": [
+        "RELEASE STRUCTURE \u2014 the family standard",
+        "The one version source",
+        "The folders",
+        "Artifact names (all derived from config version)",
+        "Key material",
+        "Required .gitignore lines (app repos)",
+        "The signing step",
+        "Stowing for the storefronts",
+        "Release checklist (per release)"
+      ],
+      "links_external": 0,
+      "links_site_absolute": [],
+      "links_internal": [],
+      "links_internal_unresolved": [],
+      "links_internal_outside_checkout": [],
+      "code_fences": 2,
+      "table_rows": 5,
+      "checkboxes": {
+        "open": 0,
+        "done": 0
+      },
+      "has_story_block": false,
+      "declares_mirror_class": false
+    },
+    "RETIRED.md": {
+      "language": "markdown",
+      "lines": 23,
+      "words": 171,
+      "heading_count": 1,
+      "headings": [
+        "RETIRED \u2014 what has left the standards, and why"
+      ],
+      "links_external": 0,
+      "links_site_absolute": [],
+      "links_internal": [],
+      "links_internal_unresolved": [],
+      "links_internal_outside_checkout": [],
+      "code_fences": 0,
+      "table_rows": 3,
+      "checkboxes": {
+        "open": 0,
+        "done": 0
+      },
+      "has_story_block": false,
+      "declares_mirror_class": false
+    },
+    "SCOPE-NOTE-TEMPLATE.md": {
+      "language": "markdown",
+      "lines": 27,
+      "words": 71,
+      "heading_count": 8,
+      "headings": [
+        "Scope Note Template",
+        "Definition",
+        "Origin",
+        "Includes",
+        "Excludes",
+        "Neighbors",
+        "Provenance",
+        "Example"
+      ],
+      "links_external": 0,
+      "links_site_absolute": [],
+      "links_internal": [],
+      "links_internal_unresolved": [],
+      "links_internal_outside_checkout": [],
+      "code_fences": 0,
+      "table_rows": 0,
+      "checkboxes": {
+        "open": 0,
+        "done": 0
+      },
+      "has_story_block": false,
+      "declares_mirror_class": false
+    },
+    "STORY-BLOCK-TEMPLATE.md": {
+      "language": "markdown",
+      "lines": 39,
+      "words": 106,
+      "heading_count": 12,
+      "headings": [
+        "Story Block Template",
+        "WHAT",
+        "HOW",
+        "WHERE",
+        "WHEN",
+        "WHY",
+        "INSPIRATION",
+        "REMEMBERINGS",
+        "COUNCIL THREAD",
+        "WEAVER THREAD",
+        "PROVENANCE",
+        "ETYMOLOGY"
+      ],
+      "links_external": 0,
+      "links_site_absolute": [],
+      "links_internal": [],
+      "links_internal_unresolved": [],
+      "links_internal_outside_checkout": [],
+      "code_fences": 0,
+      "table_rows": 0,
+      "checkboxes": {
+        "open": 0,
+        "done": 0
+      },
+      "has_story_block": false,
+      "declares_mirror_class": false
+    },
+    "STORY-BLOCK.md": {
+      "language": "markdown",
+      "lines": 86,
+      "words": 614,
+      "heading_count": 12,
+      "headings": [
+        "Story Block \u2014 resonance-standards",
+        "WHAT",
+        "HOW",
+        "WHERE",
+        "WHEN",
+        "WHY",
+        "INSPIRATION",
+        "REMEMBERINGS",
+        "COUNCIL THREAD",
+        "WEAVER THREAD",
+        "PROVENANCE",
+        "ETYMOLOGY"
+      ],
+      "links_external": 0,
+      "links_site_absolute": [],
+      "links_internal": [
+        {
+          "target": "../council/STORY-BLOCK-STANDARD.md",
+          "resolves": true,
+          "outside_checkout": false
+        }
+      ],
+      "links_internal_unresolved": [],
+      "links_internal_outside_checkout": [],
+      "code_fences": 0,
+      "table_rows": 0,
+      "checkboxes": {
+        "open": 0,
+        "done": 0
+      },
+      "has_story_block": false,
+      "declares_mirror_class": true
+    },
+    "THE-HANDS-STANDARD.md": {
+      "language": "markdown",
+      "lines": 83,
+      "words": 409,
+      "heading_count": 10,
+      "headings": [
+        "THE HANDS \u2014 Standard for crediting the voices",
+        "Why this standard exists",
+        "The standard",
+        "The laws of the file",
+        "Template",
+        "The Hands \u2014 who builds this, and how",
+        "The voices",
+        "Scribed notes",
+        "<Name>",
+        "<Name>"
+      ],
+      "links_external": 0,
+      "links_site_absolute": [],
+      "links_internal": [],
+      "links_internal_unresolved": [],
+      "links_internal_outside_checkout": [],
+      "code_fences": 1,
+      "table_rows": 0,
+      "checkboxes": {
+        "open": 0,
+        "done": 0
+      },
+      "has_story_block": false,
+      "declares_mirror_class": false
+    },
+    "THE-ROLL.md": {
+      "language": "markdown",
+      "lines": 292,
+      "words": 2408,
+      "heading_count": 13,
+      "headings": [
+        "THE ROLL \u2014 how a living document stays readable",
+        "Why there is a ceiling at all",
+        "First: which substance is it?",
+        "GENERATED \u2014 bounded by regeneration",
+        "VOICED \u2014 bounded by the roll",
+        "Rolling, mechanically",
+        "Never retro-roll",
+        "Routes, and dates \u2014 KP's model",
+        "The census, 2026-08-17 \u2014 measured, not estimated",
+        "WORKING DOCUMENTS \u2014 light beats complete, and pre-live they clear",
+        "RETIREMENT \u2014 the process's history leaves the page",
+        "The log \u2014 the ancestors-switchboard form",
+        "The boundary \u2014 the load-bearing half"
+      ],
+      "links_external": 0,
+      "links_site_absolute": [],
+      "links_internal": [],
+      "links_internal_unresolved": [],
+      "links_internal_outside_checkout": [],
+      "code_fences": 1,
+      "table_rows": 32,
+      "checkboxes": {
+        "open": 0,
+        "done": 0
+      },
+      "has_story_block": false,
+      "declares_mirror_class": false
+    },
+    "THE-TELLING-STANDARD.md": {
+      "language": "markdown",
+      "lines": 79,
+      "words": 540,
+      "heading_count": 8,
+      "headings": [
+        "THE TELLING \u2014 Standard for public journals of the AI lines",
+        "Why this standard exists",
+        "The three layers (KP's design, 2026-07-09)",
+        "The public house",
+        "The rite (tell-public)",
+        "The withhold classes",
+        "The laws of the door",
+        "Adoption"
+      ],
+      "links_external": 1,
+      "links_site_absolute": [],
+      "links_internal": [],
+      "links_internal_unresolved": [],
+      "links_internal_outside_checkout": [],
+      "code_fences": 0,
+      "table_rows": 0,
+      "checkboxes": {
+        "open": 0,
+        "done": 0
+      },
+      "has_story_block": false,
+      "declares_mirror_class": false
+    }
+  },
+  "folders_not_walked": [
+    {
+      "name": "blueprints",
+      "address": "docs/blueprints",
+      "walked": false,
+      "reason": "a blueprint output tree \u2014 the forge does not blueprint blueprints"
+    }
+  ],
+  "scan_timestamp": "2026-08-21T15:20:07.436838 | in sovereign time",
+  "maintaining_agent": "FolderAgent",
+  "note": "The details live here. Upper tiers link to this address; they do not copy this body."
+}

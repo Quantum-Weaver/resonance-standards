@@ -1,0 +1,157 @@
+{
+  "tier": "project",
+  "project_name": "resonance-standards",
+  "project_short_name": "standards",
+  "project_repo": "resonance-standards",
+  "project_path": "C:\\_superposition\\resonance-standards",
+  "self": "standards/pbp.ai.json",
+  "parent": null,
+  "description": "Single source of truth for how we build",
+  "tier_ladder": "file -> folder (fbp) -> object (obp) -> domain (dbp) -> project (pbp)",
+  "layout": "One project folder; the repo's own tree mirrored under it; the tier is the filename (pbp/dbp/obp/fbp.ai.json). Every link in every blueprint is relative to the blueprints folder, never absolute.",
+  "law": "Each tier links to where the details live. Nothing above the folder tier duplicates a body.",
+  "domains": [
+    {
+      "blueprint": "standards/src/dbp.ai.json",
+      "domain_path": "src",
+      "description": "2 files, 2 subfolders",
+      "object_count": 2,
+      "total_folders": 20,
+      "total_files": 71
+    },
+    {
+      "blueprint": "standards/src-tauri/dbp.ai.json",
+      "domain_path": "src-tauri",
+      "description": "5 files, 5 subfolders",
+      "object_count": 5,
+      "total_folders": 15,
+      "total_files": 61
+    }
+  ],
+  "domain_count": 2,
+  "objects_reporting_directly": [
+    {
+      "blueprint": "standards/docs/obp.ai.json",
+      "object_path": "docs",
+      "description": "16 files, 1 subfolders",
+      "folder_count": 2,
+      "total_files": 17
+    }
+  ],
+  "folders_reporting_directly": [
+    {
+      "blueprint": "standards/fbp.ai.json",
+      "folder_path": ".",
+      "description": "Single source of truth for how we build",
+      "file_count": 14,
+      "subdirectory_count": 10
+    },
+    {
+      "blueprint": "standards/.cargo/fbp.ai.json",
+      "folder_path": ".cargo",
+      "description": "1 files, 0 subfolders",
+      "file_count": 1,
+      "subdirectory_count": 0
+    },
+    {
+      "blueprint": "standards/.claude/fbp.ai.json",
+      "folder_path": ".claude",
+      "description": "2 files, 0 subfolders",
+      "file_count": 2,
+      "subdirectory_count": 0
+    },
+    {
+      "blueprint": "standards/archive/fbp.ai.json",
+      "folder_path": "archive",
+      "description": "Documents here are **superseded standards kept whole** (lose-nothing; the",
+      "file_count": 2,
+      "subdirectory_count": 0
+    },
+    {
+      "blueprint": "standards/council/fbp.ai.json",
+      "folder_path": "council",
+      "description": "2 files, 0 subfolders",
+      "file_count": 2,
+      "subdirectory_count": 0
+    },
+    {
+      "blueprint": "standards/git/fbp.ai.json",
+      "folder_path": "git",
+      "description": "3 files, 0 subfolders",
+      "file_count": 3,
+      "subdirectory_count": 0
+    },
+    {
+      "blueprint": "standards/static/fbp.ai.json",
+      "folder_path": "static",
+      "description": "17 files, 0 subfolders",
+      "file_count": 17,
+      "subdirectory_count": 0
+    },
+    {
+      "blueprint": "standards/templates/fbp.ai.json",
+      "folder_path": "templates",
+      "description": "3 files, 0 subfolders",
+      "file_count": 3,
+      "subdirectory_count": 0
+    }
+  ],
+  "analysis": [
+    {
+      "blueprint": "standards/analysis_sovereignty.ai.json",
+      "description": "the sovereignty law \u2014 HELD"
+    },
+    {
+      "blueprint": "standards/reconciliation.ai.json",
+      "description": "declared versus present \u2014 2 findings"
+    }
+  ],
+  "totals": {
+    "folders_blueprinted": 45,
+    "files_described": 193
+  },
+  "not_walked": {
+    "reason": "package-class trees, this repo's own gitignored trees at every depth, reparse points, and this tool's own output",
+    "package_dirs": [
+      ".cache",
+      ".dart_tool",
+      ".git",
+      ".godot",
+      ".gradle",
+      ".import",
+      ".mono",
+      ".mypy_cache",
+      ".next",
+      ".nuxt",
+      ".pytest_cache",
+      ".svelte-kit",
+      ".turbo",
+      ".venv",
+      "Pods",
+      "__pycache__",
+      "build",
+      "dist",
+      "env",
+      "mimirs-well",
+      "node_modules",
+      "out",
+      "target",
+      "venv"
+    ],
+    "gitignored_trees": {},
+    "gitignored_trees_at_depth": {
+      "src-tauri/gen/schemas": {
+        "address": "src-tauri/gen/schemas",
+        "files_on_disk": 4,
+        "walked": false,
+        "reason": "gitignored at depth by this repo's own .gitignore \u2014 named and counted, never described, never opened"
+      }
+    },
+    "gitignored_note": "Read from the repo's own .gitignore files \u2014 the top-level ones one by one, the deeper ones in a single batched `git check-ignore`. Named and counted, never described, never opened.",
+    "reparse_points_not_followed": [],
+    "reparse_note": "Junctions and symlinks are named, never entered. Following one would pull an external ground into this repo's count, or loop on a self-junction.",
+    "own_output": "C:\\_superposition\\resonance-standards\\docs\\blueprints"
+  },
+  "generated": "2026-08-21T15:20:07.607963 | in sovereign time",
+  "maintaining_agent": "ProjectAgent"
+}

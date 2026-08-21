@@ -1,0 +1,22 @@
+{
+  "tier": "object",
+  "object_name": "gen",
+  "object_path": "src-tauri/gen",
+  "self": "standards/src-tauri/gen/obp.ai.json",
+  "parent": "standards/src-tauri/dbp.ai.json",
+  "description": "0 files, 0 subfolders",
+  "folders": [
+    {
+      "blueprint": "standards/src-tauri/gen/fbp.ai.json",
+      "folder_path": "src-tauri/gen",
+      "description": "0 files, 0 subfolders",
+      "file_count": 0,
+      "subdirectory_count": 0
+    }
+  ],
+  "folder_count": 1,
+  "total_files": 0,
+  "integration_timestamp": "2026-08-21T15:20:07.574001 | in sovereign time",
+  "maintaining_agent": "ObjectAgent",
+  "note": "Links only. Every folder's details live at its own address."
+}

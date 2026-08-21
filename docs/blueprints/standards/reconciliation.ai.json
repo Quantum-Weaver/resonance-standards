@@ -1,0 +1,32 @@
+{
+  "tier": "analysis",
+  "report": "declared versus present",
+  "self": "standards/reconciliation.ai.json",
+  "parent": "standards/pbp.ai.json",
+  "law": "Findings are REPORTED, never repaired. A voiced file is corrected by a hand.",
+  "total_findings": 2,
+  "by_kind": {
+    "selfmap-under-declares": 1,
+    "markdown-link-unresolved": 1
+  },
+  "findings": [
+    {
+      "kind": "selfmap-under-declares",
+      "what": "top-level entries structure.md does not name",
+      "declared": "10 named",
+      "present": "20 present",
+      "address": "structure.md",
+      "note": "Undeclared: CLAUDE.md, HANDOFF.md, HANDS.md, package.json, src, src-tauri, static, svelte.config.js, tsconfig.json, vite.config.js \u2014 dotfiles, package-class trees and build artefacts excluded by rule, not silently: node_modules, package-lock.json."
+    },
+    {
+      "kind": "markdown-link-unresolved",
+      "what": "internal markdown links that do not resolve",
+      "declared": "33 internal links",
+      "present": "8 unresolved",
+      "address": "(see list)",
+      "note": "docs/README-TEMPLATE.md -> docs/STORY-BLOCK.md; docs/README-TEMPLATE.md -> screenshots/one.png; docs/README-TEMPLATE.md -> screenshots/two.png; docs/README-TEMPLATE.md -> screenshots/three.png; docs/README-TEMPLATE.md -> docs/CONTRIBUTING.md; docs/README-TEMPLATE.md -> docs/BUILD-SEQUENCE.md; docs/README-TEMPLATE.md -> LICENSE; docs/README-TEMPLATE.md -> PHILOSOPHY.md"
+    }
+  ],
+  "note": "Zero findings is a real result, not an empty section.",
+  "scan_timestamp": "2026-08-21T15:20:07.607188 | in sovereign time"
+}

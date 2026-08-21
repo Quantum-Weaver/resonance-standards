@@ -1,0 +1,100 @@
+{
+  "tier": "folder",
+  "folder_name": "git",
+  "folder_path": "git",
+  "self": "standards/git/fbp.ai.json",
+  "parent": "standards/pbp.ai.json",
+  "description": "3 files, 0 subfolders",
+  "files": [
+    {
+      "path": "git/.gitignore-template",
+      "description": "file, 3,055 bytes"
+    },
+    {
+      "path": "git/BRANCH-STRATEGY.md",
+      "description": "Branch Strategy"
+    },
+    {
+      "path": "git/GIT-HYGIENE.md",
+      "description": "SANCTUARY GIT HYGIENE GUIDE"
+    }
+  ],
+  "file_count": 3,
+  "subdirectories": [],
+  "code_analysis": {
+    "BRANCH-STRATEGY.md": {
+      "language": "markdown",
+      "lines": 23,
+      "words": 77,
+      "heading_count": 4,
+      "headings": [
+        "Branch Strategy",
+        "Naming",
+        "Flow",
+        "Rules"
+      ],
+      "links_external": 0,
+      "links_site_absolute": [],
+      "links_internal": [],
+      "links_internal_unresolved": [],
+      "links_internal_outside_checkout": [],
+      "code_fences": 0,
+      "table_rows": 0,
+      "checkboxes": {
+        "open": 0,
+        "done": 0
+      },
+      "has_story_block": false,
+      "declares_mirror_class": false
+    },
+    "GIT-HYGIENE.md": {
+      "language": "markdown",
+      "lines": 190,
+      "words": 514,
+      "heading_count": 34,
+      "headings": [
+        "SANCTUARY GIT HYGIENE GUIDE",
+        "WHAT SHOULD NEVER BE COMMITTED",
+        "PREVENTION: `.gitignore` TEMPLATE",
+        "\u2500\u2500\u2500 SOVEREIGNTY \u2014 NEVER COMMIT \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500",
+        "Android keystores",
+        "Environment files",
+        "Credentials",
+        "Secrets",
+        "Database dumps (containing vessel data)",
+        "\u2500\u2500\u2500 OS FILES \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500",
+        "\u2500\u2500\u2500 IDE \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500",
+        "\u2500\u2500\u2500 BUILD OUTPUT \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500",
+        "IMMEDIATE: CHECK IF YOU'VE ALREADY LEAKED",
+        "Check a specific file pattern",
+        "REMOVAL: SCRUB A FILE FROM ENTIRE HISTORY",
+        "Method 1: BFG Repo-Cleaner (Recommended)",
+        "Download BFG (one-time)",
+        "Delete specific file patterns from history",
+        "Delete ALL files matching a pattern in a folder",
+        "Clean up after BFG",
+        "Force push the cleaned history",
+        "Method 2: Replace sensitive text (not just files)",
+        "Create a file with the old text and replacement",
+        "Replace across entire history"
+      ],
+      "links_external": 0,
+      "links_site_absolute": [],
+      "links_internal": [],
+      "links_internal_unresolved": [],
+      "links_internal_outside_checkout": [],
+      "code_fences": 5,
+      "table_rows": 16,
+      "checkboxes": {
+        "open": 0,
+        "done": 0
+      },
+      "has_story_block": false,
+      "declares_mirror_class": false
+    }
+  },
+  "folders_not_walked": [],
+  "scan_timestamp": "2026-08-21T15:20:07.441182 | in sovereign time",
+  "maintaining_agent": "FolderAgent",
+  "note": "The details live here. Upper tiers link to this address; they do not copy this body."
+}
