@@ -5,6 +5,9 @@
 Applies to every app repo — Echoes, Compass, Lantern, Lucida, and all who
 come after.*
 
+*Extended 2026-08-21 at KP's ⚛ word: the **NSIS installer** is named a release
+artifact, and the desktop filenames are corrected to what Tauri actually writes.*
+
 ## The one version source
 
 `src-tauri/tauri.conf.json` → `"version"` is the **single source of truth**.
@@ -30,12 +33,24 @@ Nothing ships from a transient folder. Nothing transient lives in `release/`.
 ```
 release/
   <app>-v<version>.apk        # apksigner-signed (zipaligned first) — Galaxy Store, direct install
-  <app>-v<version>.apk.idsig  # apksigner v4 signature receipt
+  <app>-v<version>.apk.idsig  # apksigner v4 signature receipt — no storefront consumes it
   <app>-v<version>.aab        # jarsigner-signed — Google Play upload artifact
-  <app>-v<version>_x64_en-US.msi  # copied from bundle/msi at release time — Microsoft Store, direct
+  <product>_<version>_x64_en-US.msi   # copied from bundle/msi  — Microsoft Store, direct
+  <product>_<version>_x64-setup.exe   # copied from bundle/nsis — Microsoft Store, direct
 ```
 
 `<app>` = repo name (e.g. `resonance-compass`).
+`<product>` = `productName` from `tauri.conf.json` (e.g. `Resonance Compass`).
+
+**The two desktop bundles are BOTH release artifacts.** Tauri's bundle targets
+are `all`, so one desktop build writes an MSI *and* an NSIS installer; the tool
+copies each through under Tauri's own name, unrenamed. Shipping only one of them
+is half a desktop release, and **the desktop law is why both matter** — many
+people cannot use a phone for this.
+
+*(Corrected 2026-08-21: this block said `<app>-v<version>_x64_en-US.msi` from the
+founding, which no build has ever produced. Verified against four apps on disk —
+compass, bubbles, lantern, echoes — all four carry the `<product>_<version>` form.)*
 
 ## Key material
 
@@ -66,11 +81,25 @@ functional; the registry is `resonance-chamber/desk/SCRIPTS-AND-AGENTS.md`;
 its siblings `bump-version.py` and `install-app.py` live beside it).*
 It reads the config version, zipaligns and
 apksigner-signs the APK (with v4 .idsig), jarsigner-signs the AAB, copies the
-MSI, and places everything in `release/` under canonical names. It prompts
+MSI **and the NSIS installer**, and places everything in `release/` under
+canonical names. *(The NSIS half landed 2026-08-21; before it, every setup.exe
+in every release/ folder was carried there by KP's own hand.)* It prompts
 for the password at runtime (getpass) and discovers the key alias from the
 keystore itself; nothing secret is stored.
 
 Signing is always a **human-present step** — the Weaver types the password.
+
+## Stowing for the storefronts
+
+`release/` keeps the **whole history**, every version. What a hand uploads from
+is the assets mirror, which keeps **only the current release**:
+
+`python resonance-ziggy/modules/shipwright/stow-release.py <app-repo>`
+
+It copies into `resonance-assets/releases-current/<app>/bundle/{android,msi,nsis}`,
+sha256-verifies each copy before pruning the stale ones, and **never writes to
+`release/`** — the mirror is never the only copy. The `.apk.idsig` is left
+behind by default (`--idsig` carries it); no storefront consumes it.
 
 ## Release checklist (per release)
 

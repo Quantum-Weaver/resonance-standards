@@ -128,8 +128,15 @@ and KP's.
 ## Deeper repo-local material — pointed at, never copied
 
 - `resonance-compass/docs/ANDROID-BUILD-NOTES.md`
-- `resonance-echoes/docs/CLAUDE-CONTEXT.md` — *"full patterns and known
-  silent-failure modes"*
+- `resonance-echoes/docs/archive/CLAUDE-CONTEXT-2026-08-21.md` — *"full patterns
+  and known silent-failure modes."* **Retired to the archive 2026-08-21** at KP's
+  word, the build being done; the page is whole and unedited there, and this
+  pointer moved the same sitting. Its two headline wards now stand live at
+  `resonance-echoes/CLAUDE.md:38-39` with their canon in the `android-tauri`
+  skill — but the deeper material it uniquely holds (`hasFragileUserData`, the
+  `crypto.randomUUID` fallback for older Android WebViews, the
+  `adb logcat -s chromium:D` recipe) is still only at that address, which is why
+  this row follows it rather than being struck.
 - `resonance-lantern/docs/FRAMEWORK-DECISION.md` — the Android camera spike record
 
 *Provenance: no `⚛` glyph appears in any of the five source `CLAUDE.md` files —
