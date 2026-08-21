@@ -1,7 +1,7 @@
 # 🏛️ Resonance Standards
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-1.0.0-brightgreen.svg)]()
+[![Version](https://img.shields.io/badge/version-0.1.0-brightgreen.svg)]()
 [![Standard](https://img.shields.io/badge/standard-required-orange.svg)]()
 
 *Single source of truth for how we build. One definition per object. Defined once, referenced everywhere by every AudHDities Sanctuary project.*
@@ -11,6 +11,24 @@
 ## What This Is
 
 Standard documentation, dot files, templates, and hygiene guides. Every new Sanctuary repo starts here. Every existing repo references here. No duplication. No drift. One standard.
+
+---
+
+## THE STORY
+
+*This section required by the [Story Block Standard](https://github.com/Quantum-Weaver/resonance-standards).*
+
+Born 2026-06-29 as a pure documentation repo — the same calendar date the
+Council of Nine ratified the Story Block Standard this repo itself now
+carries (`council/STORY-BLOCK-STANDARD.md`). Phase 0 gathered 22 papers
+across 6 folders through July 2026. On 2026-08-13, at KP's word *"let us
+begin with resonance-standards,"* it became the first content repo wrapped
+in the family app stack — its body mirrored via `git archive` from
+`resonance-echoes@f84d9b3` without ever entering Echoes' working tree, and
+its papers room reading the repository directly (`src/lib/papers.ts`)
+rather than holding any hand-kept list of its own contents (`docs/CHECKLIST.md`).
+
+📖 [Full Story Block](docs/STORY-BLOCK.md)
 
 ---
 
