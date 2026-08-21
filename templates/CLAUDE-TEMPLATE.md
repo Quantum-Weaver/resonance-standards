@@ -23,7 +23,7 @@ in the same sitting as the work it records.
 
 ## Structure
 
-The forge's map: `docs/blueprints/pbp.ai.json` — regenerate, never
+The forge's map: `docs/blueprints/<realm>/pbp.ai.json` — regenerate, never
 hand-draw a tree here (hand-drawn trees were the house's largest drift
 magnet; nine of sixteen carried dead entries when measured 2026-08-14).
 
