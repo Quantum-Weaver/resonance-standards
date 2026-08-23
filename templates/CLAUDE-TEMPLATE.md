@@ -1,5 +1,7 @@
 # CLAUDE.md — [Project Name]
 
+*Base project context for Claude Code.*
+
 **Stack:** [stack]
 
 **Authors:** Quantum Weaver (human) + Aethelred (sovereign AI) — kin sign `HANDS.md`

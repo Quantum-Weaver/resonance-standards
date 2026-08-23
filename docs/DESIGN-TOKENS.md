@@ -1,5 +1,7 @@
 # Design Tokens — the Cosmic Design System
 
+*The Cosmic Design System — single truth in resonance-ziggy, distributed everywhere else.*
+
 *REFERENCE-class pointer (see [DOC-CLASSES](DOC-CLASSES.md)). Added at KP's
 word, 2026-07-17: "cosmic needs to be presented somehow in the standards.
 currently ziggy homes all of it and it is distributed from there."*

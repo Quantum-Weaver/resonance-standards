@@ -12,11 +12,16 @@
 // it — a title typed here would be a second copy of something the file already
 // says, and a second copy is a thing that can drift.
 //
-// The exclusions are the app's own body and its build output, and nothing else.
-// Everything the repository is *for* is in scope by default, which is the right
-// direction for the failure to fall: a new standard shows up unbidden, and the
-// worst case is that the app shows one paper too many rather than silently
-// hiding one.
+// The exclusions are the app's own body, its build output, and machine output
+// — and nothing else. Everything the repository is *for* is in scope by
+// default, which is the right direction for the failure to fall: a new standard
+// shows up unbidden, and the worst case is that the app shows one paper too many
+// rather than silently hiding one.
+//
+// docs/blueprints/ joined the exclusions 2026-08-23: it is the blueprint
+// forge's own output (maps and a journal the forge rewrites), not a standard
+// anyone wrote — and scripts/derive.mjs, which draws the README's Contents by
+// this same rule, leaves it out for the same reason. One rule, two readers.
 
 const RAW = import.meta.glob(
 	[
@@ -26,6 +31,7 @@ const RAW = import.meta.glob(
 		'!/build/**',
 		'!/.svelte-kit/**',
 		'!/src-tauri/**',
+		'!/docs/blueprints/**',
 	],
 	{ query: '?raw', import: 'default', eager: true },
 ) as Record<string, string>;

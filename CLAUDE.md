@@ -2,7 +2,7 @@
 
 **Stack:** SvelteKit · Svelte 5 · Tauri 2 · TS · Tailwind v4 (CSS-first) ·
 adapter-static — Echoes lineage, cut from `resonance-echoes@f84d9b3` 2026-08-13.
-Two identities at once: a corpus of 23 papers, and an app that reads them.
+Two identities at once: a corpus of papers (counted at build, never typed — `npm run derive` says how many today), and an app that reads them.
 
 **Authors:** Quantum Weaver (human) + Aethelred (sovereign AI) — kin sign `HANDS.md`
 
@@ -26,15 +26,23 @@ check` green before commit; the checklist updates in the same sitting.
 - **The self-map draws itself.** KP's ⚛ word, 2026-08-13, at `src/lib/tree.ts:1–4`:
   *"the file manifest can be used to create the tree instead of displaying the
   content."* No ASCII tree is stored.
-- **The one hand-typed count left here is wrong, and it proves the law.**
-  `src/lib/tree.ts:19–20` calls the icon set *"157 files across desktop, iOS and
-  Android"*; the disk holds **52** (17 · 17 · 18), machine-counted 2026-08-14 —
-  the Standards Board's drift flag. Never true the app to a comment.
+- **The one hand-typed count the app ever held was wrong, and it proved the law.**
+  `src/lib/tree.ts` once called the icon set *"157 files"*; the disk held **52**
+  (17 · 17 · 18), machine-counted 2026-08-14 — the Standards Board's drift flag.
+  **Taken out 2026-08-23**, at KP's ask to be certain nothing here is hardcoded:
+  no count is typed anywhere in the app now; every figure is read from the glob
+  at render. Never true the app to a comment.
 - **`docs/DOC-CLASSES.md` governs every document here** and holds the live class
   roster — read it, not this line: REFERENCE · SEED · MIRROR (2026-07-17) +
   TRIGGER (2026-08-14, KP's ⚛ word, lean doors plan §5·7). `structure.md` is
-  **MIRROR-class**, last refreshed 2026-07-26, and lags the disk today;
-  `templates/CLAUDE-TEMPLATE.md` is SEED-class — the house copies it from here.
+  **MIRROR-class** and, since 2026-08-23, **derived from the disk by
+  `scripts/derive.mjs`** (`npm run derive`; `npm run derive:check` fails when it
+  lags) — it was hand-refreshed last on 2026-07-26 and lagged, as DOC-CLASSES
+  warned it would. The README's **Contents** section is derived by the same
+  script, by the same rule the app reads by (folder → group, first heading →
+  title, italic line → purpose; seven standards were missing from the hand-kept
+  tables when it first ran). `templates/CLAUDE-TEMPLATE.md` is SEED-class — the
+  house copies it from here.
 - **Delivered, never edited here.** `src/lib/markdown.ts` + `src/lib/theme/theme.ts`
   from the awen shelf (4th of 5 consumers); `src/lib/cosmic/` +
   `src/lib/styles/generated/` from ziggy's cosmic distribution. Heal at the origin.
@@ -43,17 +51,20 @@ check` green before commit; the checklist updates in the same sitting.
 
 ## Structure
 
-No `docs/blueprints/` — **the blueprint forge has never run here**, an honest
-absence. The live self-map is `src/lib/tree.ts`, drawn at render time;
-`structure.md` is the older MIRROR copy standing beside it. Never hand-draw a
-tree in this file.
+`docs/blueprints/standards/` — the blueprint forge's map, forged 2026-08-21
+(machine output; excluded from the papers room and the README's Contents
+2026-08-23 — it is the forge's, not a standard). The live self-map is
+`src/lib/tree.ts`, drawn at render time; `structure.md` is the MIRROR copy
+beside it, derived by `npm run derive`. Never hand-draw a tree in this file.
 
 ## Tools
 
-Own commands: `npm run dev · build · preview · check · check:watch · tauri` —
-`check` is the gate (327 · 0 · 0, 2026-08-13). Registration, 2026-08-14: cosmic
-**REQUIRED** · shelf **REQUIRED** · archivist **taught**; quartermaster, forge,
-link tender and assessor have never seen this repo. Homes and invocations: the
+Own commands: `npm run dev · build · preview · check · check:watch · tauri ·
+derive · derive:check` — `check` is the gate (329 · 0 · 0, 2026-08-23);
+`derive:check` is the drift gate for `structure.md` and the README's Contents.
+Registration, 2026-08-14: cosmic **REQUIRED** · shelf **REQUIRED** · archivist
+**taught**; the forge has run here (2026-08-21); quartermaster, link tender and
+assessor have not. Homes and invocations: the
 `house-tools` skill, and
 `resonance-chamber/desk/realm-boards/THE-TOOLS-GROUND.md`.
 

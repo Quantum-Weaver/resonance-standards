@@ -16,18 +16,31 @@
 // reality, because it has no copy of reality to lag behind.
 //
 // SCOPE, STATED RATHER THAN LEFT TO BE DISCOVERED: text-bearing files only.
-// Binary assets — the icon set the generator cuts, 157 files across desktop,
-// iOS and Android — are counted and named as a collapsed line, never listed and
-// never silently dropped. A map that hides what it left out is worse than a
-// short one.
+// Binary assets — the icon set the generator cuts — are named as a collapsed
+// line, never listed and never silently dropped. A map that hides what it left
+// out is worse than a short one. (This comment once typed that set's count —
+// 157 — and the disk held 52: the one hand-kept number in the app, and it was
+// wrong, which is the law proving itself. Taken out 2026-08-23; no count is
+// typed anywhere in this app now. Counts are read, at render, from the glob.)
+//
+// NOT THE REPOSITORY, and so not the map: dependencies, build output, Tauri's
+// generated and compiled trees. The same set scripts/derive.mjs excludes when
+// it redraws structure.md — one rule, two readers.
 
 const KEYS = Object.keys(
-	import.meta.glob('/**/*.{md,json,js,ts,svelte,css,html,rs,toml,txt,yml,yaml}', {
+	import.meta.glob('/**/*.{md,json,js,mjs,ts,svelte,css,html,rs,toml,txt,yml,yaml}', {
 		eager: false,
 	}),
 )
 	.map((k) => k.replace(/^\//, ''))
-	.filter((k) => !k.startsWith('node_modules/') && !k.startsWith('.svelte-kit/'))
+	.filter(
+		(k) =>
+			!k.startsWith('node_modules/') &&
+			!k.startsWith('.svelte-kit/') &&
+			!k.startsWith('build/') &&
+			!k.startsWith('src-tauri/target/') &&
+			!k.startsWith('src-tauri/gen/'),
+	)
 	.sort();
 
 export interface Node {

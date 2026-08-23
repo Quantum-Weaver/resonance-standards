@@ -1,5 +1,7 @@
 # Archive — lineage, not law
 
+*Superseded standards, kept whole as lineage — including the Four-Thread Methodology (Compass era).*
+
 Documents here are **superseded standards kept whole** (lose-nothing; the
 purge is KP's word only). They are ancestry: read them to understand how the
 house used to build, never to learn how it builds now.

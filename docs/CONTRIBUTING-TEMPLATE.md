@@ -1,5 +1,7 @@
 # Contributing to [Project Name]
 
+*Methodology, branch strategy, build protocol, philosophy.*
+
 Welcome. This guide tells you how we build.
 
 ---

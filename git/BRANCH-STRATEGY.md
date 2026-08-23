@@ -1,5 +1,7 @@
 # Branch Strategy
 
+*Phase branches, naming conventions, merge protocol.*
+
 ## Naming
 `[project]/[phase-name]`
 

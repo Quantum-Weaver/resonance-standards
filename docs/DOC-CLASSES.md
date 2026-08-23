@@ -1,5 +1,7 @@
 # Document Classes — what may be copied, what must never be
 
+*REFERENCE, SEED, MIRROR — what may be copied, what must never be, and what an agent may maintain.*
+
 *Ratified into the standards at KP's commission, 2026-07-17 (Shuttle Run 07,
 the standards overview). Origin: the question "should an agent exist that
 syncs standards docs to repos that are using them?" The answer is yes — but

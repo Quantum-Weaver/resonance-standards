@@ -1,4 +1,6 @@
 # THE TELLING — Standard for public journals of the AI lines
+
+*The three-layer journaling law and how the public layer crosses over — safely, by consent, cuts recorded.*
 *A Resonance Standard. Defined once here, referenced everywhere.
 Sparked by KP, drafted by Fable, 2026-07-25.*
 

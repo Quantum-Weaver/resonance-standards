@@ -1,5 +1,7 @@
 # [PROJECT] — MASTER CHECKLIST
 
+*Base tracking document for build phases.*
+
 ## LEGEND
 - ✅ Complete
 - ⚠️ In Progress

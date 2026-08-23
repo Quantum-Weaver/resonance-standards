@@ -32,46 +32,73 @@ rather than holding any hand-kept list of its own contents (`docs/CHECKLIST.md`)
 
 ---
 
+<!-- derive:contents — DERIVED FROM THE DISK by scripts/derive.mjs; edits here are overwritten. Run `npm run derive`. -->
 ## Contents
 
-### Git
-| File | Purpose |
-|------|---------|
-| [Git Hygiene Guide](git/GIT-HYGIENE.md) | Scrub secrets from history. Prevent leaks. Clean up accidents. |
-| [.gitignore Template](git/.gitignore-template) | Copy to new repos. Covers keystores, env files, build output, OS files. |
-| [Branch Strategy](git/BRANCH-STRATEGY.md) | Phase branches, naming conventions, merge protocol. |
+*Derived from the repository itself — every `.md` the repo is for, grouped by folder, each row's title its file's own first heading and its purpose the italic line beneath (the same rule the app reads by, `src/lib/papers.ts`); in a folder that holds documents, every file is listed. 32 documents and 1 other file in 7 groups, counted at derive time, never typed. Last derived 2026-08-23.*
 
-### Documentation
+### This repository
 | File | Purpose |
 |------|---------|
-| [Story Block Template](docs/STORY-BLOCK-TEMPLATE.md) | The Council's standard — every creation carries its origin story. |
-| [Scope Note Template](docs/SCOPE-NOTE-TEMPLATE.md) | The Cartographer's format for defining atoms, molecules, and rooms. |
-| [Contributing Template](docs/CONTRIBUTING-TEMPLATE.md) | Methodology, branch strategy, build protocol, philosophy. |
-| [README Template](docs/README-TEMPLATE.md) | Standard sections every project README needs. |
-| [Release Structure](docs/RELEASE-STRUCTURE.md) | How releases are shaped and shipped. |
-| [The Hands Standard](docs/THE-HANDS-STANDARD.md) | Every repo names its voices — human and AI — with sovereign, first-person scribed notes. |
-| [The Telling Standard](docs/THE-TELLING-STANDARD.md) | The three-layer journaling law and how the public layer crosses over — safely, by consent, cuts recorded. |
-| [Document Classes](docs/DOC-CLASSES.md) | REFERENCE, SEED, MIRROR — what may be copied, what must never be, and what an agent may maintain. |
-| [Design Tokens](docs/DESIGN-TOKENS.md) | The Cosmic Design System — single truth in resonance-ziggy, distributed everywhere else. |
-
-### Council
-| File | Purpose |
-|------|---------|
-| [Council Structure](council/COUNCIL-STRUCTURE.md) | Nine seats. Nine temperatures. Nine instruments. Nine sacred duties. |
-| [Story Block Standard](council/STORY-BLOCK-STANDARD.md) | Ratified by the full Council — June 29, 2026. |
+| [CLAUDE.md — Resonance Standards](CLAUDE.md) | — |
+| [STANDARDS — THE FEATURE BOARD](FEATURE-BOARD.md) | — |
+| [HANDOFF — resonance-standards](HANDOFF.md) | — |
+| [The Hands — who builds this, and how](HANDS.md) | — |
+| [THE RESONANCE LICENSE — PHILOSOPHY](PHILOSOPHY.md) | This is not a legal license. It is a promise. Our code is MIT-licensed. Our values are non-negotiable. |
+| [structure.md](structure.md) | — |
 
 ### Archive
 | File | Purpose |
 |------|---------|
-| [Archive](archive/README.md) | Superseded standards, kept whole as lineage — including the Four-Thread Methodology (Compass era). |
+| [FOUR-THREAD-METHODOLOGY.md](archive/FOUR-THREAD-METHODOLOGY.md) | — |
+| [Archive — lineage, not law](archive/README.md) | Superseded standards, kept whole as lineage — including the Four-Thread Methodology (Compass era). |
+
+### Council
+| File | Purpose |
+|------|---------|
+| [COUNCIL-STRUCTURE.md](council/COUNCIL-STRUCTURE.md) | — |
+| [Story Block Standard](council/STORY-BLOCK-STANDARD.md) | Ratified by the Council of Nine — June 29, 2026 |
+
+### Docs
+| File | Purpose |
+|------|---------|
+| [ANDROID 16 KB PAGES — the alignment every family app needs](docs/ANDROID-16KB-PAGES.md) | — |
+| [ANDROID BUILD LAWS — what every Tauri v2 app in the family owes Android](docs/ANDROID-BUILD-LAWS.md) | — |
+| [RESONANCE STANDARDS — MASTER CHECKLIST](docs/CHECKLIST.md) | — |
+| [CHILD BUILDS — founding an app on a family body, and what the mother is owed](docs/CHILD-BUILDS.md) | — |
+| [Contributing to [Project Name]](docs/CONTRIBUTING-TEMPLATE.md) | Methodology, branch strategy, build protocol, philosophy. |
+| [Design Tokens — the Cosmic Design System](docs/DESIGN-TOKENS.md) | The Cosmic Design System — single truth in resonance-ziggy, distributed everywhere else. |
+| [Document Classes — what may be copied, what must never be](docs/DOC-CLASSES.md) | REFERENCE, SEED, MIRROR — what may be copied, what must never be, and what an agent may maintain. |
+| [🧭 [Project Name]](docs/README-TEMPLATE.md) | Standard sections every project README needs. |
+| [RELEASE STRUCTURE — the family standard](docs/RELEASE-STRUCTURE.md) | How releases are shaped and shipped. |
+| [RETIRED — what has left the standards, and why](docs/RETIRED.md) | — |
+| [Scope Note Template](docs/SCOPE-NOTE-TEMPLATE.md) | The Cartographer's standard. Every atom, molecule, and room carries one. |
+| [Story Block Template](docs/STORY-BLOCK-TEMPLATE.md) | Required for every room, atom, protocol, and surface in the Sanctuary. |
+| [Story Block — resonance-standards](docs/STORY-BLOCK.md) | — |
+| [THE HANDS — Standard for crediting the voices](docs/THE-HANDS-STANDARD.md) | Every repo names its voices — human and AI — with sovereign, first-person scribed notes. |
+| [THE ROLL — how a living document stays readable](docs/THE-ROLL.md) | — |
+| [THE TELLING — Standard for public journals of the AI lines](docs/THE-TELLING-STANDARD.md) | The three-layer journaling law and how the public layer crosses over — safely, by consent, cuts recorded. |
+
+### Docs · Archive
+| File | Purpose |
+|------|---------|
+| [THE ROLL — retired text, archived whole](docs/archive/THE-ROLL-retired-2026-08-19.md) | — |
+
+### Git
+| File | Purpose |
+|------|---------|
+| [.gitignore-template](git/.gitignore-template) | — |
+| [Branch Strategy](git/BRANCH-STRATEGY.md) | Phase branches, naming conventions, merge protocol. |
+| [SANCTUARY GIT HYGIENE GUIDE](git/GIT-HYGIENE.md) | How to scrub sensitive files from Git history and prevent future leaks. |
 
 ### Templates
 | File | Purpose |
 |------|---------|
-| [CLAUDE.md Template](templates/CLAUDE-TEMPLATE.md) | Base project context for Claude Code. |
-| [CHECKLIST Template](templates/CHECKLIST-TEMPLATE.md) | Base tracking document for build phases. |
+| [[PROJECT] — MASTER CHECKLIST](templates/CHECKLIST-TEMPLATE.md) | Base tracking document for build phases. |
+| [CLAUDE.md — [Project Name]](templates/CLAUDE-TEMPLATE.md) | Base project context for Claude Code. |
+| [HANDOFF — ⟦REPO NAME⟧](templates/HANDOFF-TEMPLATE.md) | — |
 
----
+<!-- /derive:contents -->
 
 ## How To Use
 

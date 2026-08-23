@@ -1,5 +1,7 @@
 # RELEASE STRUCTURE — the family standard
 
+*How releases are shaped and shipped.*
+
 *Every app in the Sanctuary ships from the same shape. Established 2026-07-04
 (Weaver + Fable), from the patterns Echoes and Compass proved by hand.
 Applies to every app repo — Echoes, Compass, Lantern, Lucida, and all who

@@ -1,4 +1,6 @@
 # THE HANDS — Standard for crediting the voices
+
+*Every repo names its voices — human and AI — with sovereign, first-person scribed notes.*
 *A Resonance Standard. Defined once here, referenced by every Sanctuary repo.
 Proposed by KP, drafted by Fable, 2026-07-09.*
 
