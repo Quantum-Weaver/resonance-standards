@@ -1,14 +1,6 @@
 #!/usr/bin/env node
 // DERIVE — the repository describes itself; nothing here is typed by hand.
 //
-// KP's ⚛ law, 2026-08-13 (src/lib/papers.ts): "we want to be sure the app is
-// reading what exists not hardcoding values so there is nothing extra to
-// maintain." The app kept that law; two documents beside it did not — the
-// README's Contents tables (hand-kept, seven standards behind the disk on
-// 2026-08-23) and structure.md (MIRROR-class, last refreshed 2026-07-26). This
-// script derives both from the disk by the SAME rules the app uses, so they
-// cannot lag:
-//
 //   structure.md        the text-bearing tree, drawn like src/lib/tree.ts
 //   README.md           the Contents section, grouped like src/lib/papers.ts:
 //                       folder → group, first `# heading` → title, the italic
@@ -26,7 +18,7 @@ import { fileURLToPath } from 'node:url';
 const ROOT = join(fileURLToPath(import.meta.url), '..', '..');
 const CHECK = process.argv.includes('--check');
 
-// ── the rules, stated once ────────────────────────────────────────────────
+// the rules, stated once
 // Folders that are not the repository: dependencies, build output, Tauri's
 // generated and compiled trees, git's own store. The same set src/lib/tree.ts
 // excludes.
@@ -60,7 +52,7 @@ const PAPERS = ALL.filter(
 	(p) => p.endsWith('.md') && !isDotfile(p) && !NOT_A_PAPER.some((x) => p.startsWith(x)) && p !== 'README.md',
 );
 
-// ── structure.md — the tree, drawn ───────────────────────────────────────
+// structure.md — the tree, drawn
 function tree(paths) {
 	const root = { name: 'resonance-standards', dir: true, children: [] };
 	for (const p of paths) {
@@ -115,7 +107,7 @@ const STRUCTURE = [
 	'',
 ].join('\n');
 
-// ── README.md — the Contents, grouped like the papers room ───────────────
+// README.md — the Contents, grouped like the papers room
 function titleOf(text, path) {
 	for (const line of text.split('\n')) {
 		const m = /^#\s+(.+?)\s*$/.exec(line);
@@ -150,11 +142,9 @@ for (const p of PAPERS) {
 	const row = { path: p, title: titleOf(text, p), blurb: blurbOf(text) };
 	(groups.get(folder) ?? groups.set(folder, []).get(folder)).push(row);
 }
-// IN A FOLDER THAT HOLDS DOCUMENTS, EVERY FILE IS LISTED — a standard is not
-// always markdown (git/.gitignore-template is the one the old hand-kept table
-// knew about). At the root only the documents are listed; the root's other
-// files are the app's tooling (package.json, the configs, LICENSE). Such a row
-// is titled by its filename, because it has no heading to be titled by.
+// In a folder that holds documents, every file is listed — a standard is not
+// always markdown. At the root only the documents are listed; the root's other
+// files are the app's tooling. Such a row is titled by its filename.
 const EXTRAS = ALL.filter((p) => {
 	const cut = p.lastIndexOf('/');
 	if (cut < 0 || p.endsWith('.md')) return false;
@@ -183,7 +173,7 @@ const CONTENTS = [
 	'<!-- /derive:contents -->',
 ].join('\n');
 
-// ── land, or check ───────────────────────────────────────────────────────
+// land, or check
 const readmePath = join(ROOT, 'README.md');
 const readme = readFileSync(readmePath, 'utf8');
 const open = readme.indexOf('<!-- derive:contents');

@@ -1,27 +1,4 @@
 // THE PAPERS — this repo's own markdown, read from the ground at build.
-//
-// KP's ⚛ law, 2026-08-13: "we want to be sure the app is reading what exists
-// not hardcoding values so there is nothing extra to maintain."
-//
-// So there is no list of documents anywhere in this app. The glob below reads
-// the repository itself. Drop a file into any folder and it appears; make a new
-// folder and it becomes a new group; delete one and it leaves. **No import to
-// add, no title to type, no code to edit — ever.**
-//
-// The title is the file's OWN first `# heading`, never a string written beside
-// it — a title typed here would be a second copy of something the file already
-// says, and a second copy is a thing that can drift.
-//
-// The exclusions are the app's own body, its build output, and machine output
-// — and nothing else. Everything the repository is *for* is in scope by
-// default, which is the right direction for the failure to fall: a new standard
-// shows up unbidden, and the worst case is that the app shows one paper too many
-// rather than silently hiding one.
-//
-// docs/blueprints/ joined the exclusions 2026-08-23: it is the blueprint
-// forge's own output (maps and a journal the forge rewrites), not a standard
-// anyone wrote — and scripts/derive.mjs, which draws the README's Contents by
-// this same rule, leaves it out for the same reason. One rule, two readers.
 
 const RAW = import.meta.glob(
 	[
@@ -97,7 +74,7 @@ export const PAPERS: Paper[] = Object.entries(RAW)
 	})
 	.sort((a, b) => a.path.localeCompare(b.path));
 
-/** Root first — a repository introduces itself before it explains itself. */
+/** Root first. */
 export const GROUPS: Group[] = (() => {
 	const by = new Map<string, Paper[]>();
 	for (const p of PAPERS) {
@@ -113,6 +90,6 @@ export const GROUPS: Group[] = (() => {
 export const COUNTS = {
 	papers: PAPERS.length,
 	groups: GROUPS.length,
-	/** honest bytes, so the room can say how much it is actually holding */
+	/** honest bytes */
 	bytes: PAPERS.reduce((n, p) => n + p.text.length, 0),
 };

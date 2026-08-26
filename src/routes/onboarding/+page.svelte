@@ -18,21 +18,11 @@
 		type Walk
 	} from '$lib/epagoge';
 
-	// The wordmark law, learned from Bubbles: the title reads the app's OWN
-	// name (productName in tauri.conf.json is the single truth), so a rename
-	// never gets chased into the chrome. Outside Tauri the fallback stands.
 	let appName = $state('Standards');
 	getName()
 		.then((n) => { appName = n.replace(/^Resonance\s+/i, ''); })
 		.catch(() => {});
 
-	// THE WALK — this door consumes the-epagoge (the spring's leading-in;
-	// Compass its first consumer, Bubbles the road-prover). The app brings
-	// the particulars into the walk's slots; the walk owns the flow, the
-	// dots, the honest record. ALL presets are offered at the door —
-	// derived from the shelf itself, never hardcoded, so a new preset
-	// appears here the day it is born (KP's word: "it adds the other
-	// available styles choices").
 	const PRESET_ICONS: Record<string, string> = {
 		dark: '🌙',
 		warm: '🔥',
@@ -42,8 +32,7 @@
 		amoled: '🌑'
 	};
 
-	// THE KEY LAW: the key is stored ("amoled"); the display name
-	// (presetName, "AMOLED Black") is dress and appears nowhere in the record.
+	// The key is stored ("amoled"); the display name is dress, never the record.
 	const themeOffers = Object.entries(PRESET_THEMES).map(([key, t]) => ({
 		key,
 		name: t.presetName,
@@ -85,9 +74,6 @@
 		if (isDone(walk)) finish();
 	}
 
-	// THE DOORWAY LAW: completion hands over what was given and what was
-	// not; the app stores it under its own roof, and every answer stays
-	// changeable in Settings.
 	function finish() {
 		const done = completion(walk);
 		const name = done.entries['welcome'];
@@ -101,11 +87,9 @@
 <div class="onboarding" style="padding-top: env(safe-area-inset-top, 0px);">
 
 	{#if beginTrouble}
-		<!-- Trouble is data, told never thrown — and it should never stand here:
-		     the steps are static. Honest anyway. -->
 		<div class="screen"><div class="screen-body"><p class="ob-sub">{beginTrouble}</p></div></div>
 	{:else if step?.id === 'welcome'}
-		<!-- Step 1: Welcome — the entry -->
+		<!-- Step 1: Welcome -->
 		<div class="screen">
 			<div class="screen-body">
 				<div class="sigil-wrap">
@@ -154,7 +138,7 @@
 		</div>
 
 	{:else if step?.id === 'how'}
-		<!-- Step 2: How it works — a threshold, passage only -->
+		<!-- Step 2: How it works -->
 		<div class="screen">
 			<div class="screen-body">
 				<h1 class="ob-title">How it works</h1>
@@ -204,7 +188,7 @@
 		</div>
 
 	{:else}
-		<!-- Step 3: Theme — every preset the shelf holds, live-preview cards -->
+		<!-- Step 3: Theme -->
 		<div class="screen">
 			<div class="screen-body">
 				<h1 class="ob-title">Choose your atmosphere</h1>
@@ -225,7 +209,6 @@
 					{/each}
 				</div>
 
-				<!-- The doorway line — the leading-in never locks a door. -->
 				<p class="name-hint">You can change this anytime in Settings.</p>
 			</div>
 
@@ -258,7 +241,6 @@
 		background: var(--bg);
 	}
 
-	/* Each screen fills the viewport */
 	.screen {
 		flex: 1;
 		min-height: 100vh;
@@ -268,7 +250,6 @@
 		box-sizing: border-box;
 	}
 
-	/* Vertically centers the content area */
 	.screen-body {
 		flex: 1;
 		display: flex;
@@ -277,7 +258,7 @@
 		gap: 1.75rem;
 	}
 
-	/* ── Step 1: Welcome ── */
+	/* Step 1: Welcome */
 	.sigil-wrap {
 		display: flex;
 		justify-content: center;
@@ -347,7 +328,7 @@
 		margin: 0;
 	}
 
-	/* ── Step 2: How it works ── */
+	/* Step 2: How it works */
 	.how-cards {
 		display: flex;
 		flex-direction: column;
@@ -387,7 +368,7 @@
 		line-height: 1.5;
 	}
 
-	/* ── Step 3: Theme — six cards, 2 columns on a phone, 3 on wider land ── */
+	/* Step 3: Theme */
 	.theme-grid {
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
@@ -427,7 +408,7 @@
 		border-radius: 3px;
 	}
 
-	/* ── Actions ── */
+	/* Actions */
 	.screen-actions {
 		display: flex;
 		flex-direction: column;
@@ -461,7 +442,7 @@
 	}
 	.btn-skip:hover { color: var(--text-secondary); }
 
-	/* ── Progress dots — derived by the walk, drawn by the app ── */
+	/* Progress dots */
 	.progress {
 		display: flex;
 		justify-content: center;
