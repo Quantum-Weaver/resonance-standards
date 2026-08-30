@@ -129,18 +129,23 @@ clean, then *"the desktop shell verified opening clean by **his own hands**"*
 
 ---
 
-## Unwritten — his to rule
+## Ruled 2026-08-30 — where the guard lives, and in which direction
 
-**Two questions the sources deliberately leave open. This page does not close
-them.**
+**Two questions the sources left open stood here until KP's ⚛ word,
+2026-08-30, given to the recommendation verbatim: *"put it in shipwright, and
+make the rule direction-free — yes."***
 
-1. **Where the grep law is enforced.** *"A guard that lives only in a checklist
-   row is a guard nobody runs. The law is written; **where it should be enforced
-   is unwritten — his to rule.**"*
-   (`THE-ECHOES-BOARD.html:427-428`)
-2. **Whether the law binds a child's own `gen/` too.** *"The law names Echoes'
-   `gen/`; whether it also binds this repo's is **unwritten — his to rule.**"*
-   (`THE-COMPASS-BOARD.html:447-448`)
+1. **Where the grep law is enforced: shipwright.**
+   `resonance-ziggy/modules/shipwright/guard-gen.py <project> | --all` is the
+   guard; `sign-release.py` runs it before it signs anything and refuses a
+   build whose gen names a sibling. Run it by hand before any build in a
+   child line. *(Was: "A guard that lives only in a checklist row is a guard
+   nobody runs" — `THE-ECHOES-BOARD.html:427-428`.)*
+2. **The rule is direction-free.** An app's `src-tauri/gen/android` may
+   contain only its own identifier — mother or child, the same rule; the
+   guard discovers every app's identifier from its own `tauri.conf.json` and
+   greps for all the others. *(Was: whether the law binds a child's own
+   `gen/` — `THE-COMPASS-BOARD.html:447-448`.)*
 
 ## What this page does NOT assert
 
