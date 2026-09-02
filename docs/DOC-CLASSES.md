@@ -12,8 +12,14 @@ only for one of three classes, and naming the classes is the standard.*
 | Class | Behavior | Examples | May an agent write it? |
 |---|---|---|---|
 | **REFERENCE** | Never copied. Repos *link* to the single truth. | GIT-HYGIENE, THE-HANDS, Council docs, this file | No — nothing to sync. "Defined once, referenced everywhere." |
-| **SEED** | Copied once into a repo, then **diverges on purpose** — it becomes the repo's own. | `.gitignore-template`, CLAUDE-TEMPLATE, CHECKLIST-TEMPLATE | **Never.** A seed is a planting, not a mirror; overwriting one destroys repo-specific truth. |
+| **SEED** | Copied once into a repo, then **diverges on purpose** — it becomes the repo's own. | `.gitignore-template`, CLAUDE-TEMPLATE, HANDOFF-TEMPLATE | **Never.** A seed is a planting, not a mirror; overwriting one destroys repo-specific truth. |
 | **MIRROR** | Verbatim copy kept in a repo for practical/runtime reasons, refreshed from a single editable truth. | the cosmic token files in consuming apps | Yes — this is the *only* class an agent maintains. |
+
+*What a realm tracks is no class of document at all. Items, ticks, plans and handoffs
+are rows in the base — `resonance-progenatrix/progenatrix.db`, read with
+`python C:/_superposition/resonance-progenatrix/progenatrix.py recall --realm <slug>`,
+written with its `item` · `tick` · `plan` · `handoff` verbs — at KP's ⚛ word, 2026-09-01:
+**"no checklist docs should exist"** · **"we use progenatrix for most track things now."***
 
 ## The fourth class — TRIGGER (added 2026-08-14)
 

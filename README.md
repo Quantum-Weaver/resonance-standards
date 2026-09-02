@@ -35,14 +35,12 @@ rather than holding any hand-kept list of its own contents (`docs/CHECKLIST.md`)
 <!-- derive:contents — DERIVED FROM THE DISK by scripts/derive.mjs; edits here are overwritten. Run `npm run derive`. -->
 ## Contents
 
-*Derived from the repository itself — every `.md` the repo is for, grouped by folder, each row's title its file's own first heading and its purpose the italic line beneath (the same rule the app reads by, `src/lib/papers.ts`); in a folder that holds documents, every file is listed. 32 documents and 1 other file in 7 groups, counted at derive time, never typed. Last derived 2026-08-23.*
+*Derived from the repository itself — every `.md` the repo is for, grouped by folder, each row's title its file's own first heading and its purpose the italic line beneath (the same rule the app reads by, `src/lib/papers.ts`); in a folder that holds documents, every file is listed. 36 documents and 1 other file in 7 groups, counted at derive time, never typed. Last derived 2026-09-02.*
 
 ### This repository
 | File | Purpose |
 |------|---------|
-| [CLAUDE.md — Resonance Standards](CLAUDE.md) | — |
 | [STANDARDS — THE FEATURE BOARD](FEATURE-BOARD.md) | — |
-| [HANDOFF — resonance-standards](HANDOFF.md) | — |
 | [The Hands — who builds this, and how](HANDS.md) | — |
 | [THE RESONANCE LICENSE — PHILOSOPHY](PHILOSOPHY.md) | This is not a legal license. It is a promise. Our code is MIT-licensed. Our values are non-negotiable. |
 | [structure.md](structure.md) | — |
@@ -64,7 +62,6 @@ rather than holding any hand-kept list of its own contents (`docs/CHECKLIST.md`)
 |------|---------|
 | [ANDROID 16 KB PAGES — the alignment every family app needs](docs/ANDROID-16KB-PAGES.md) | — |
 | [ANDROID BUILD LAWS — what every Tauri v2 app in the family owes Android](docs/ANDROID-BUILD-LAWS.md) | — |
-| [RESONANCE STANDARDS — MASTER CHECKLIST](docs/CHECKLIST.md) | — |
 | [CHILD BUILDS — founding an app on a family body, and what the mother is owed](docs/CHILD-BUILDS.md) | — |
 | [Contributing to [Project Name]](docs/CONTRIBUTING-TEMPLATE.md) | Methodology, branch strategy, build protocol, philosophy. |
 | [Design Tokens — the Cosmic Design System](docs/DESIGN-TOKENS.md) | The Cosmic Design System — single truth in resonance-ziggy, distributed everywhere else. |
@@ -82,7 +79,15 @@ rather than holding any hand-kept list of its own contents (`docs/CHECKLIST.md`)
 ### Docs · Archive
 | File | Purpose |
 |------|---------|
+| [CHECKLIST-TEMPLATE — retired text, archived whole](docs/archive/CHECKLIST-TEMPLATE-retired-2026-09-01.md) | The archive half of §RETIREMENT (`../THE-ROLL.md`) — what left `templates/CHECKLIST-TEMPLATE.md` on 2026-09-01, kept untouched. |
+| [CHILD BUILDS — retired text, archived whole](docs/archive/CHILD-BUILDS-retired-2026-09-01.md) | The archive half of §RETIREMENT (`../THE-ROLL.md`) — what left `docs/CHILD-BUILDS.md` on 2026-09-01, kept untouched. |
+| [CLAUDE-TEMPLATE — retired text, archived whole](docs/archive/CLAUDE-TEMPLATE-retired-2026-09-01.md) | The archive half of §RETIREMENT (`../THE-ROLL.md`) — what left `templates/CLAUDE-TEMPLATE.md` on 2026-09-01, kept untouched. |
+| [CONTRIBUTING-TEMPLATE — retired text, archived whole](docs/archive/CONTRIBUTING-TEMPLATE-retired-2026-09-01.md) | The archive half of §RETIREMENT (`../THE-ROLL.md`) — what left `docs/CONTRIBUTING-TEMPLATE.md` on 2026-09-01, kept untouched. |
+| [DOC-CLASSES — retired text, archived whole](docs/archive/DOC-CLASSES-retired-2026-09-01.md) | The archive half of §RETIREMENT (`../THE-ROLL.md`) — what left `docs/DOC-CLASSES.md` on 2026-09-01, kept untouched. |
+| [HANDOFF-TEMPLATE — retired text, archived whole](docs/archive/HANDOFF-TEMPLATE-retired-2026-09-01.md) | The archive half of §RETIREMENT (`../THE-ROLL.md`) — what left `templates/HANDOFF-TEMPLATE.md` on 2026-09-01, kept untouched. |
+| [README — retired text, archived whole](docs/archive/README-retired-2026-09-01.md) | The archive half of §RETIREMENT (`../THE-ROLL.md`) — what left `README.md` on 2026-09-01, kept untouched. |
 | [THE ROLL — retired text, archived whole](docs/archive/THE-ROLL-retired-2026-08-19.md) | — |
+| [THE ROLL — retired text, archived whole](docs/archive/THE-ROLL-retired-2026-09-01.md) | The archive half of §RETIREMENT (`../THE-ROLL.md`) — what left `docs/THE-ROLL.md` on 2026-09-01, kept untouched. |
 
 ### Git
 | File | Purpose |
@@ -94,7 +99,6 @@ rather than holding any hand-kept list of its own contents (`docs/CHECKLIST.md`)
 ### Templates
 | File | Purpose |
 |------|---------|
-| [[PROJECT] — MASTER CHECKLIST](templates/CHECKLIST-TEMPLATE.md) | Base tracking document for build phases. |
 | [CLAUDE.md — [Project Name]](templates/CLAUDE-TEMPLATE.md) | Base project context for Claude Code. |
 | [HANDOFF — ⟦REPO NAME⟧](templates/HANDOFF-TEMPLATE.md) | — |
 
@@ -111,9 +115,9 @@ cp /path/to/resonance-standards/git/.gitignore-template .gitignore
 # 2. Copy and customize CLAUDE.md
 cp /path/to/resonance-standards/templates/CLAUDE-TEMPLATE.md CLAUDE.md
 
-# 3. Copy and customize the checklist
-mkdir docs
-cp /path/to/resonance-standards/templates/CHECKLIST-TEMPLATE.md docs/CHECKLIST.md
+# 3. Tracking is the base's, not a file's — see where the realm stands
+#    (KP's word, 2026-09-01: "no checklist docs should exist")
+python C:/_superposition/resonance-progenatrix/progenatrix.py recall --realm <slug>
 ```
 
 Then reference this repo in your README:

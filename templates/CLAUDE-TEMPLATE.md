@@ -13,9 +13,12 @@ here. This file holds the door and the scars, nothing else.)*
 
 ---
 
-Enter by **`docs/CHECKLIST.md`** — the newest rows ARE the current state.
-One pass, one scoped duty; zero errors before commit; the checklist updates
-in the same sitting as the work it records.
+Enter by **the base** —
+`python C:/_superposition/resonance-progenatrix/progenatrix.py recall --realm <slug>`:
+the realm's latest handoff, open items and plans ARE the current state (KP's ⚛
+word, 2026-09-01: *"we use progenatrix for most track things now"*). One pass,
+one scoped duty; zero errors before commit; the item is ticked
+(`progenatrix.py tick <id>`) in the same sitting as the work that closed it.
 
 ## Ground rules — dated scars only
 

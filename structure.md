@@ -3,7 +3,7 @@
 *(MIRROR-class self-map — truth is the repository tree; regenerate on change,
 never trust to memory. **Derived from the disk by `scripts/derive.mjs`** — run
 `npm run derive` and it redraws; `npm run derive:check` fails when it lags.
-Last derived 2026-08-23. Text-bearing files only, the same rule the app's own
+Last derived 2026-09-02. Text-bearing files only, the same rule the app's own
 self-map draws by (`src/lib/tree.ts`); binary assets are not listed.)*
 
 ```
@@ -16,7 +16,15 @@ resonance-standards/
 │   └── STORY-BLOCK-STANDARD.md
 ├── docs/
 │   ├── archive/
-│   │   └── THE-ROLL-retired-2026-08-19.md
+│   │   ├── CHECKLIST-TEMPLATE-retired-2026-09-01.md
+│   │   ├── CHILD-BUILDS-retired-2026-09-01.md
+│   │   ├── CLAUDE-TEMPLATE-retired-2026-09-01.md
+│   │   ├── CONTRIBUTING-TEMPLATE-retired-2026-09-01.md
+│   │   ├── DOC-CLASSES-retired-2026-09-01.md
+│   │   ├── HANDOFF-TEMPLATE-retired-2026-09-01.md
+│   │   ├── README-retired-2026-09-01.md
+│   │   ├── THE-ROLL-retired-2026-08-19.md
+│   │   └── THE-ROLL-retired-2026-09-01.md
 │   ├── blueprints/
 │   │   └── standards/
 │   │       ├── archive/
@@ -117,7 +125,6 @@ resonance-standards/
 │   │       └── reconciliation.ai.json
 │   ├── ANDROID-16KB-PAGES.md
 │   ├── ANDROID-BUILD-LAWS.md
-│   ├── CHECKLIST.md
 │   ├── CHILD-BUILDS.md
 │   ├── CONTRIBUTING-TEMPLATE.md
 │   ├── DESIGN-TOKENS.md
@@ -237,12 +244,9 @@ resonance-standards/
 │   ├── Cargo.toml
 │   └── tauri.conf.json
 ├── templates/
-│   ├── CHECKLIST-TEMPLATE.md
 │   ├── CLAUDE-TEMPLATE.md
 │   └── HANDOFF-TEMPLATE.md
-├── CLAUDE.md
 ├── FEATURE-BOARD.md
-├── HANDOFF.md
 ├── HANDS.md
 ├── package-lock.json
 ├── package.json
@@ -254,4 +258,4 @@ resonance-standards/
 └── vite.config.js
 ```
 
-*171 text files across 73 folders — counted, never typed.*
+*175 text files across 73 folders — counted, never typed.*

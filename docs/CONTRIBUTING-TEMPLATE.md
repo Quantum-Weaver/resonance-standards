@@ -32,12 +32,17 @@ Full phase list: See `docs/BUILD-SEQUENCE.md`
 
 ## Build Protocol
 
-1. Claude reads `docs/CHECKLIST.md` and relevant blueprints
+1. Claude reads the realm's open items and plans from the base —
+   `python C:/_superposition/resonance-progenatrix/progenatrix.py recall --realm <slug>` —
+   and the relevant blueprints
 2. Executes the phase
 3. `npm run check` — zero errors
 4. `cargo build` — zero errors
 5. Human tests all criteria
 6. Merge to `main`
+
+*Tracking is the base's, not a document's — KP's ⚛ word, 2026-09-01: "we use
+progenatrix for most track things now."*
 
 ---
 

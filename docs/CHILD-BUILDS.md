@@ -32,7 +32,7 @@ and the checklist state it wider:
 > for the child's package name before the next build."**
 > — `resonance-chamber/desk/realm-boards/THE-ECHOES-BOARD.html:221-222`
 > (the governing callout, *"the law bought 2026-08-13"*); the same words at
-> `resonance-echoes/docs/CHECKLIST.md:146`
+> `resonance-echoes/docs/CHECKLIST.md:146` (in git; the file has left echoes' tree)
 
 ## Why — twice the mother has taken a child's ground
 
@@ -167,9 +167,13 @@ sibling checkout — a distribution question, flagged not fixed"*
 `ANDROID-16KB-PAGES.md` (the `.cargo/` law) · `ANDROID-BUILD-LAWS.md`
 (capabilities, JNI, icons, `gen/`) · `RELEASE-STRUCTURE.md` (versions, signing)
 · `resonance-awen/tools/the-founding-ritual/` (a repo raised from empty, not
-copied) · `DOC-CLASSES.md` (a child's `CLAUDE.md` and `docs/CHECKLIST.md` are
-**SEED-class** — planted once, the repo's own from then on, and *"no agent
-overwrites them"*, `resonance-bubbles/CLAUDE.md:83-89`).
+copied) · `DOC-CLASSES.md` (a child's `CLAUDE.md` is **SEED-class** — planted once, the
+repo's own from then on, and *"no agent overwrites them"*,
+`resonance-bubbles/CLAUDE.md:83-89`). What a child tracks is no seed: its items,
+ticks, plans and handoffs are rows in the base, at KP's ⚛ word, 2026-09-01 —
+*"no checklist docs should exist"* · *"we use progenatrix for most track things
+now"* — read with
+`python C:/_superposition/resonance-progenatrix/progenatrix.py recall --realm <slug>`.
 
 *Correct this page beside itself, never silently. Where it and a repo's own
 dated scar disagree, the scar wins.*

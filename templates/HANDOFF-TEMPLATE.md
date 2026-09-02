@@ -9,9 +9,11 @@ and is **cited, never copied in.***
 > regenerated whole at each close that touched it, never appended to. Git holds every
 > prior day. *Same route, different day.*
 >
-> **What it is not.** It is not `docs/CHECKLIST.md`. The CHECKLIST is the append-only
-> ledger of what was **done**; this sheet is the state of what **stands**. This page
-> cites the CHECKLIST and never restates it.
+> **What it is not.** It is not the ledger. The ledger of what was **done** is the base —
+> `progenatrix.db`, its items and ticks, read with
+> `python C:/_superposition/resonance-progenatrix/progenatrix.py recall --realm <slug>`
+> (KP's ⚛ word, 2026-09-01: *"we use progenatrix for most track things now"*); this
+> sheet is the state of what **stands**. This page cites the base and never restates it.
 >
 > **Ceiling: 8 KB.** Past it, this sheet is over-written and re-cut — never rolled, and
 > the ceiling is never raised. A sheet that long is carrying a letter, and letters
@@ -66,7 +68,8 @@ two laws waiting to drift.*
 
 ---
 
-*This sheet holds no truth of its own. The ledger is `docs/CHECKLIST.md`; the state that
+*This sheet holds no truth of its own. The ledger is the base
+(`progenatrix.py recall --realm <slug>`); the state that
 waits is `resonance-chamber/desk/THE-PRATIKSANA.html`; the realm's fuller picture is its
 board on the rack. Where this sheet and the ground disagree, **the ground is right** —
 regenerate it.*

@@ -49,10 +49,11 @@ voiced; regenerate the generated.** A file that carries someone's voice is repor
 never silently rewritten by any hand or agent, however kindly meant. **An index may be
 regenerated freely."***
 
-**The commonest defect in this house is one file trying to be both.** A CHECKLIST that
-is also asked to state current status will grow forever, because the ledger half may
-never be replaced and the status half must be. Split the substances and both halves get
-small.
+**The commonest defect in this house is one file trying to be both.** A ledger that is
+also asked to state current status will grow forever, because the ledger half may never
+be replaced and the status half must be. Split the substances and both halves get small
+— for tracking, the base performs that split: an item is a row, and where it stands is a
+reading appended beside it, never over it (§WORKING DOCUMENTS).
 
 ---
 
@@ -166,19 +167,26 @@ reads, and each one's *next entry* is the one that opens its successor.
 
 **What it changes.** The law above bounds a VOICED document by **size** — flag at 30 KB,
 roll at 40 KB, *never retro-roll*. This adds the axis it did not have: **whether the realm
-has gone live.** A `RUN-LOG.md` or a `docs/CHECKLIST.md` in a realm that has never shipped
-is a **working document, not yet history** — scaffolding for a build in progress, read by
-the hands doing the building and by nobody else, ever. It may be **archived whole and
-re-cut light at any time before go-live**, at any size, without waiting for a ceiling.
+has gone live.** A `RUN-LOG.md` in a realm that has never shipped is a **working document,
+not yet history** — scaffolding for a build in progress, read by the hands doing the
+building and by nobody else, ever. It may be **archived whole and re-cut light at any time
+before go-live**, at any size, without waiting for a ceiling.
+
+**Tracking is not a working document.** What a realm has done and what stands open —
+items, ticks, plans, handoffs — are rows in the base, `resonance-progenatrix/progenatrix.db`,
+at KP's ⚛ word, 2026-09-01: **"no checklist docs should exist"** · **"we use progenatrix
+for most track things now."** Read them with
+`python C:/_superposition/resonance-progenatrix/progenatrix.py recall --realm <slug>`;
+write them with its `item` · `tick` · `plan` · `handoff` verbs.
 
 | | **WORKING** | **RECORD** |
 |---|---|---|
-| which | `RUN-LOG.md` · `docs/CHECKLIST.md`, in a realm not yet live | everything else voiced — journals, letters, registers, buses |
+| which | `RUN-LOG.md`, in a realm not yet live | everything else voiced — journals, letters, registers, buses |
 | bounded by | **go-live**, then the roll | the roll alone |
 | may be cleared | **yes — archived whole, then re-cut light** | never |
 
 **GO-LIVE is the line, and it is his word — never a lamp's inference.** A realm that has
-shipped to anyone outside this house has a checklist that is a record of what was shipped,
+shipped to anyone outside this house has a run-log that is a record of what was shipped,
 and it stops clearing from that day. Before that day there is no outside reader to protect.
 
 **Archived, never deleted.** The whole document goes to
