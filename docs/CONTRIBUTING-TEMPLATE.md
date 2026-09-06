@@ -33,7 +33,7 @@ Full phase list: See `docs/BUILD-SEQUENCE.md`
 ## Build Protocol
 
 1. Claude reads the realm's open items and plans from the base —
-   `python C:/_superposition/resonance-progenatrix/progenatrix.py recall --realm <slug>` —
+   `python ../resonance-progenatrix/progenatrix.py recall --realm <slug>` —
    and the relevant blueprints
 2. Executes the phase
 3. `npm run check` — zero errors

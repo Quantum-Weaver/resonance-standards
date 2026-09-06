@@ -24,7 +24,7 @@ MIRROR-class deliveries from `resonance-awen` / `resonance-ziggy`, healed at
 their own origin, never edited here (`CLAUDE.md` §Ground rules).
 
 ## WHERE
-`c:/_superposition/resonance-standards` — referenced by every Sanctuary
+`../resonance-standards` — referenced by every Sanctuary
 repo (`README.md` §Related Repositories; `docs/DOC-CLASSES.md` REFERENCE
 class). Its own neighbors are its 22 papers across 6 folders: `git/`,
 `docs/`, `council/`, `templates/`, `archive/`, and the root

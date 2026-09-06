@@ -176,7 +176,7 @@ before go-live**, at any size, without waiting for a ceiling.
 items, ticks, plans, handoffs — are rows in the base, `resonance-progenatrix/progenatrix.db`,
 at KP's ⚛ word, 2026-09-01: **"no checklist docs should exist"** · **"we use progenatrix
 for most track things now."** Read them with
-`python C:/_superposition/resonance-progenatrix/progenatrix.py recall --realm <slug>`;
+`python ../resonance-progenatrix/progenatrix.py recall --realm <slug>`;
 write them with its `item` · `tick` · `plan` · `handoff` verbs.
 
 | | **WORKING** | **RECORD** |

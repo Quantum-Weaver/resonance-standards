@@ -173,7 +173,7 @@ repo's own from then on, and *"no agent overwrites them"*,
 ticks, plans and handoffs are rows in the base, at KP's ⚛ word, 2026-09-01 —
 *"no checklist docs should exist"* · *"we use progenatrix for most track things
 now"* — read with
-`python C:/_superposition/resonance-progenatrix/progenatrix.py recall --realm <slug>`.
+`python ../resonance-progenatrix/progenatrix.py recall --realm <slug>`.
 
 *Correct this page beside itself, never silently. Where it and a repo's own
 dated scar disagree, the scar wins.*

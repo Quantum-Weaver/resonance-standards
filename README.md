@@ -117,7 +117,7 @@ cp /path/to/resonance-standards/templates/CLAUDE-TEMPLATE.md CLAUDE.md
 
 # 3. Tracking is the base's, not a file's — see where the realm stands
 #    (KP's word, 2026-09-01: "no checklist docs should exist")
-python C:/_superposition/resonance-progenatrix/progenatrix.py recall --realm <slug>
+python ../resonance-progenatrix/progenatrix.py recall --realm <slug>
 ```
 
 Then reference this repo in your README:

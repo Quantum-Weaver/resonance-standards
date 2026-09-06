@@ -11,7 +11,7 @@ and is **cited, never copied in.***
 >
 > **What it is not.** It is not the ledger. The ledger of what was **done** is the base —
 > `progenatrix.db`, its items and ticks, read with
-> `python C:/_superposition/resonance-progenatrix/progenatrix.py recall --realm <slug>`
+> `python ../resonance-progenatrix/progenatrix.py recall --realm <slug>`
 > (KP's ⚛ word, 2026-09-01: *"we use progenatrix for most track things now"*); this
 > sheet is the state of what **stands**. This page cites the base and never restates it.
 >

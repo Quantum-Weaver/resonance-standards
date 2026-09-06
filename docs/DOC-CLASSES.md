@@ -17,7 +17,7 @@ only for one of three classes, and naming the classes is the standard.*
 
 *What a realm tracks is no class of document at all. Items, ticks, plans and handoffs
 are rows in the base — `resonance-progenatrix/progenatrix.db`, read with
-`python C:/_superposition/resonance-progenatrix/progenatrix.py recall --realm <slug>`,
+`python ../resonance-progenatrix/progenatrix.py recall --realm <slug>`,
 written with its `item` · `tick` · `plan` · `handoff` verbs — at KP's ⚛ word, 2026-09-01:
 **"no checklist docs should exist"** · **"we use progenatrix for most track things now."***
 

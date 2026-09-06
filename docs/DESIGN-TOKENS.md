@@ -12,7 +12,7 @@ The Sanctuary's design language — colors, dimensions, easing, typography,
 attention, consciousness, the whole token vocabulary — is the **Cosmic Design
 System**, and its one editable home is:
 
-    C:\_superposition\resonance-ziggy\modules\cosmic\
+    ../resonance-ziggy/modules/cosmic/
 
 ([resonance-ziggy on GitHub](https://github.com/Quantum-Weaver/resonance-ziggy)
 · rehomed from AudHDities by KP's signature, Shuttle Run 04 Phase 3,
