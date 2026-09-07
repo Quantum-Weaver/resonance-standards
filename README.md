@@ -35,7 +35,7 @@ rather than holding any hand-kept list of its own contents (`docs/CHECKLIST.md`)
 <!-- derive:contents — DERIVED FROM THE DISK by scripts/derive.mjs; edits here are overwritten. Run `npm run derive`. -->
 ## Contents
 
-*Derived from the repository itself — every `.md` the repo is for, grouped by folder, each row's title its file's own first heading and its purpose the italic line beneath (the same rule the app reads by, `src/lib/papers.ts`); in a folder that holds documents, every file is listed. 36 documents and 1 other file in 7 groups, counted at derive time, never typed. Last derived 2026-09-02.*
+*Derived from the repository itself — every `.md` the repo is for, grouped by folder, each row's title its file's own first heading and its purpose the italic line beneath (the same rule the app reads by, `src/lib/papers.ts`); in a folder that holds documents, every file is listed. 41 documents and 1 other file in 7 groups, counted at derive time, never typed. Last derived 2026-09-07.*
 
 ### This repository
 | File | Purpose |
@@ -79,13 +79,19 @@ rather than holding any hand-kept list of its own contents (`docs/CHECKLIST.md`)
 ### Docs · Archive
 | File | Purpose |
 |------|---------|
+| [ANDROID-BUILD-LAWS — retired text, archived whole](docs/archive/ANDROID-BUILD-LAWS-retired-2026-09-07.md) | The archive half of §RETIREMENT (`../THE-ROLL.md`) — what left `docs/ANDROID-BUILD-LAWS.md` on 2026-09-07, kept untouched. |
 | [CHECKLIST-TEMPLATE — retired text, archived whole](docs/archive/CHECKLIST-TEMPLATE-retired-2026-09-01.md) | The archive half of §RETIREMENT (`../THE-ROLL.md`) — what left `templates/CHECKLIST-TEMPLATE.md` on 2026-09-01, kept untouched. |
 | [CHILD BUILDS — retired text, archived whole](docs/archive/CHILD-BUILDS-retired-2026-09-01.md) | The archive half of §RETIREMENT (`../THE-ROLL.md`) — what left `docs/CHILD-BUILDS.md` on 2026-09-01, kept untouched. |
+| [CHILD-BUILDS — retired text, archived whole](docs/archive/CHILD-BUILDS-retired-2026-09-07.md) | The archive half of §RETIREMENT (`../THE-ROLL.md`) — what left `docs/CHILD-BUILDS.md` on 2026-09-07, kept untouched. |
 | [CLAUDE-TEMPLATE — retired text, archived whole](docs/archive/CLAUDE-TEMPLATE-retired-2026-09-01.md) | The archive half of §RETIREMENT (`../THE-ROLL.md`) — what left `templates/CLAUDE-TEMPLATE.md` on 2026-09-01, kept untouched. |
+| [CLAUDE-TEMPLATE — retired text, archived whole](docs/archive/CLAUDE-TEMPLATE-retired-2026-09-07.md) | The archive half of §RETIREMENT (`../THE-ROLL.md`) — what left `templates/CLAUDE-TEMPLATE.md` on 2026-09-07, kept untouched. |
 | [CONTRIBUTING-TEMPLATE — retired text, archived whole](docs/archive/CONTRIBUTING-TEMPLATE-retired-2026-09-01.md) | The archive half of §RETIREMENT (`../THE-ROLL.md`) — what left `docs/CONTRIBUTING-TEMPLATE.md` on 2026-09-01, kept untouched. |
 | [DOC-CLASSES — retired text, archived whole](docs/archive/DOC-CLASSES-retired-2026-09-01.md) | The archive half of §RETIREMENT (`../THE-ROLL.md`) — what left `docs/DOC-CLASSES.md` on 2026-09-01, kept untouched. |
+| [DOC-CLASSES — retired text, archived whole](docs/archive/DOC-CLASSES-retired-2026-09-07.md) | The archive half of §RETIREMENT (`../THE-ROLL.md`) — what left `docs/DOC-CLASSES.md` on 2026-09-07, kept untouched. |
 | [HANDOFF-TEMPLATE — retired text, archived whole](docs/archive/HANDOFF-TEMPLATE-retired-2026-09-01.md) | The archive half of §RETIREMENT (`../THE-ROLL.md`) — what left `templates/HANDOFF-TEMPLATE.md` on 2026-09-01, kept untouched. |
+| [HANDS — retired text, archived whole](docs/archive/HANDS-retired-2026-09-07.md) | The archive half of §RETIREMENT (`../THE-ROLL.md`) — what left `HANDS.md` on 2026-09-07, kept untouched. |
 | [README — retired text, archived whole](docs/archive/README-retired-2026-09-01.md) | The archive half of §RETIREMENT (`../THE-ROLL.md`) — what left `README.md` on 2026-09-01, kept untouched. |
+| [README — retired text, archived whole](docs/archive/README-retired-2026-09-07.md) | The archive half of §RETIREMENT (`../THE-ROLL.md`) — what left `README.md` on 2026-09-07, kept untouched. |
 | [THE ROLL — retired text, archived whole](docs/archive/THE-ROLL-retired-2026-08-19.md) | — |
 | [THE ROLL — retired text, archived whole](docs/archive/THE-ROLL-retired-2026-09-01.md) | The archive half of §RETIREMENT (`../THE-ROLL.md`) — what left `docs/THE-ROLL.md` on 2026-09-01, kept untouched. |
 
@@ -99,24 +105,21 @@ rather than holding any hand-kept list of its own contents (`docs/CHECKLIST.md`)
 ### Templates
 | File | Purpose |
 |------|---------|
-| [CLAUDE.md — [Project Name]](templates/CLAUDE-TEMPLATE.md) | Base project context for Claude Code. |
 | [HANDOFF — ⟦REPO NAME⟧](templates/HANDOFF-TEMPLATE.md) | — |
 
 <!-- /derive:contents -->
 
 ## How To Use
 
-In any new Sanctuary repo:
+A new Sanctuary repo is founded by the-founding-ritual
+(`resonance-awen/tools/the-founding-ritual`), which reads this checkout and
+plants the founding set: `.gitignore` from `git/.gitignore-template`,
+`LICENSE` and `PHILOSOPHY.md` verbatim, and skeletons for `README.md`,
+`HANDS.md`, `RUN-LOG.md`, `HANDOFF.md` and `docs/STORY-BLOCK.md`.
+
+Where a realm stands is the base's record:
 
 ```powershell
-# 1. Copy the gitignore
-cp /path/to/resonance-standards/git/.gitignore-template .gitignore
-
-# 2. Copy and customize CLAUDE.md
-cp /path/to/resonance-standards/templates/CLAUDE-TEMPLATE.md CLAUDE.md
-
-# 3. Tracking is the base's, not a file's — see where the realm stands
-#    (KP's word, 2026-09-01: "no checklist docs should exist")
 python ../resonance-progenatrix/progenatrix.py recall --realm <slug>
 ```
 

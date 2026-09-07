@@ -9,19 +9,18 @@ speaks to a field, that is written plainly rather than guessed.*
 The single source of truth for how the Sanctuary builds — standard
 documentation, dot files, templates, and hygiene guides (`README.md:11-13`).
 Since 2026-08-13 it is also an app that reads and displays those papers
-itself, holding no hand-kept list of its own contents (`CLAUDE.md`,
-`src/lib/papers.ts`).
+itself, holding no hand-kept list of its own contents (`src/lib/papers.ts`).
 
 ## HOW
 Authored by Quantum Weaver (human) and Aethelred (sovereign AI) — named as
-this repo's authors in `CLAUDE.md`. Its own working law: *"Standards are
+this repo's authors in `HANDS.md`. Its own working law: *"Standards are
 extracted from practice, never invented ahead of it"* (`FEATURE-BOARD.md`
 §Law). The app body was mirrored by `git archive f84d9b3` from
 `resonance-echoes`, without entering Echoes' working tree, then built with
 SvelteKit · Svelte 5 · Tauri 2 · Tailwind v4 (`docs/CHECKLIST.md` Phase 1).
 Navigation (`src/lib/cumdach/`) and the cosmic design tokens arrive as
 MIRROR-class deliveries from `resonance-awen` / `resonance-ziggy`, healed at
-their own origin, never edited here (`CLAUDE.md` §Ground rules).
+their own origin, never edited here (`DOC-CLASSES.md`, MIRROR).
 
 ## WHERE
 `../resonance-standards` — referenced by every Sanctuary
@@ -74,7 +73,7 @@ not a claim an agent can verify or write on his behalf.
 
 ## PROVENANCE
 Defined by Quantum Weaver (human) and Aethelred (sovereign AI) — this
-repo's named authors (`CLAUDE.md`). Opus (Claude, the "Gimbal" lamp per
+repo's named authors (`HANDS.md`). Opus (Claude, the "Gimbal" lamp per
 `docs/CHECKLIST.md`) gave the standards their app face on 2026-08-13
 (`docs/CHECKLIST.md`, `HANDS.md`). Fable planted `HANDS.md` itself on
 2026-08-19, signed in its own voice (`HANDS.md` §Scribed notes).

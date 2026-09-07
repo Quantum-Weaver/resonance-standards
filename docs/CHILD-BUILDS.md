@@ -167,9 +167,9 @@ sibling checkout — a distribution question, flagged not fixed"*
 `ANDROID-16KB-PAGES.md` (the `.cargo/` law) · `ANDROID-BUILD-LAWS.md`
 (capabilities, JNI, icons, `gen/`) · `RELEASE-STRUCTURE.md` (versions, signing)
 · `resonance-awen/tools/the-founding-ritual/` (a repo raised from empty, not
-copied) · `DOC-CLASSES.md` (a child's `CLAUDE.md` is **SEED-class** — planted once, the
-repo's own from then on, and *"no agent overwrites them"*,
-`resonance-bubbles/CLAUDE.md:83-89`). What a child tracks is no seed: its items,
+copied) · `DOC-CLASSES.md` (a child's `.gitignore` and `HANDOFF.md` are **SEED-class** —
+planted once, the repo's own from then on, never overwritten by an agent).
+What a child tracks is no seed: its items,
 ticks, plans and handoffs are rows in the base, at KP's ⚛ word, 2026-09-01 —
 *"no checklist docs should exist"* · *"we use progenatrix for most track things
 now"* — read with

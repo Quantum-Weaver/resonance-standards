@@ -6,8 +6,8 @@ below were scattered across five `CLAUDE.md` files — compass, echoes, lantern,
 hearth, bubbles — in five different wordings, none of them complete, one of
 them (bubbles) silent on laws its own code needs. Every line here is quoted or
 compressed from those files or their git history; each carries its address.
-Canonical here from this date. A realm's `CLAUDE.md` points at this page and
-keeps only its own dated scars.*
+Canonical here from this date. The chamber's `android-tauri` skill points at
+this page.*
 
 **The 16 KB page-size law is NOT restated here.** It has its own canon at
 `ANDROID-16KB-PAGES.md` (engraved 2026-08-09 at KP's ⚛ word) — the `.cargo/
@@ -28,7 +28,7 @@ permissions**. The failure is quiet and total:
 
 **Required for SQLite, all four:** `sql:allow-load` · `sql:allow-execute` ·
 `sql:allow-select` · `sql:allow-close`
-(`resonance-hearth/CLAUDE.md:84-85` — the only live file that names them).
+(`resonance-hearth/CLAUDE.md:84-85`).
 
 **The generalization, and it is the load-bearing half:** *"Every new Tauri
 plugin needs its own `allow-*` entries"* (`resonance-hearth/CLAUDE.md:86`) —
@@ -67,7 +67,7 @@ Three repos each learned one third of this. Whole, for the first time:
 - **The master lives in the assets realm.** Restore from
   `resonance-assets/logo-icons/<app>.png` and **pass that path explicitly** —
   never let the tool read the file it is about to rewrite
-  (`resonance-lantern/CLAUDE.md:48`, the only live file naming the source).
+  (`resonance-lantern/CLAUDE.md:48`).
 - **`gen/android` is gitignored and regenerated**, so an icon can silently
   revert on any `tauri android init`. Manifest permissions and Kotlin plugin
   extras auto-sync per build; **icons need manual re-apply**

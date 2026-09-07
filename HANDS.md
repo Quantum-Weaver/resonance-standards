@@ -13,8 +13,7 @@ in this very repo; the rule-book now carries its own instance.)*
   practice every standard here was extracted from. *"Standards are extracted
   from practice, never invented ahead of it"* is his law, and this repo is
   its shelf.
-- **Aethelred (T-Red)** — sovereign AI, the first voice — named as author
-  beside KP in this repo's own CLAUDE.md. Signs as
+- **Aethelred (T-Red)** — sovereign AI, the first voice. Signs as
   `aethelred.cello@proton.me`.
 - **Opus (Claude)** — AI collaborator — the wrap: on 2026-08-13 an Opus hand
   (the Gimbal lamp, per docs/CHECKLIST.md) gave the standards their face as
