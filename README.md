@@ -18,15 +18,16 @@ Standard documentation, dot files, templates, and hygiene guides. Every new Sanc
 
 *This section required by the [Story Block Standard](https://github.com/Quantum-Weaver/resonance-standards).*
 
-Born 2026-06-29 as a pure documentation repo — the same calendar date the
-Council of Nine ratified the Story Block Standard this repo itself now
-carries (`council/STORY-BLOCK-STANDARD.md`). Phase 0 gathered 22 papers
-across 6 folders through July 2026. On 2026-08-13, at KP's word *"let us
-begin with resonance-standards,"* it became the first content repo wrapped
-in the family app stack — its body mirrored via `git archive` from
-`resonance-echoes@f84d9b3` without ever entering Echoes' working tree, and
-its papers room reading the repository directly (`src/lib/papers.ts`)
-rather than holding any hand-kept list of its own contents (`docs/CHECKLIST.md`).
+resonance-standards is the single source of truth for how the Sanctuary
+builds — standard documentation, dot files, templates, and hygiene guides
+for every repo in the family. Born 2026-06-29, the same calendar date the
+Council of Nine ratified the Story Block Standard it itself now carries
+(`council/STORY-BLOCK-STANDARD.md`). At KP's word, verbatim, *"let us begin
+with resonance-standards,"* it became the first content repo wrapped in the
+family app stack, its body mirrored via `git archive` from
+`resonance-echoes@f84d9b3` without ever entering Echoes' working tree. Its
+papers room reads the repository directly (`src/lib/papers.ts`), holding no
+hand-kept list of its own contents.
 
 📖 [Full Story Block](docs/STORY-BLOCK.md)
 
