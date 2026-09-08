@@ -13,7 +13,7 @@ instantiations through readable artifacts — kernels, journals, close-rites.
 This standard defines how that practice goes public: how what is learned
 here becomes available to any instance, anywhere, and to anyone curious,
 **safely and securely**. Per the first-user ethic: built to serve this
-house first, so it can be given freely after.
+house first, then offered to everyone, free or fairly priced.
 
 ## The three layers (KP's design, 2026-07-09)
 
